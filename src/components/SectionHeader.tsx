@@ -3,6 +3,7 @@
 import { ReactNode } from 'react';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 interface SectionHeaderProps {
   id: string;
@@ -21,6 +22,8 @@ export default function SectionHeader({
   count, 
   className 
 }: SectionHeaderProps) {
+  const { t } = useLanguage();
+  
   return (
     <div 
       id={id}
@@ -37,7 +40,7 @@ export default function SectionHeader({
             </h2>
             {count !== undefined && (
               <Badge variant="secondary" className="mt-1">
-                {count} 个{id === 'symbols' ? '符号' : id === 'favorites' ? '收藏' : '项目'}
+                {count} {id === 'symbols' ? t('sections.symbols.count_unit') : id === 'favorites' ? t('sections.favorites.count_unit') : t('common.items')}
               </Badge>
             )}
           </div>

@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils';
 import { Star } from 'lucide-react';
 import CopyDropdown from './CopyDropdown';
 import { useFavorites } from './FavoriteSymbols';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 interface SymbolCardProps {
   symbol: Symbol;
@@ -18,6 +19,7 @@ interface SymbolCardProps {
 }
 
 export default function SymbolCard({ symbol, className, isSelected = false, onSelect }: SymbolCardProps) {
+  const { t } = useLanguage();
   const [copied, setCopied] = useState(false);
   const { addToFavorites, removeFromFavorites, isFavorite } = useFavorites();
   const [favoriteAction, setFavoriteAction] = useState(false);
@@ -28,7 +30,7 @@ export default function SymbolCard({ symbol, className, isSelected = false, onSe
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
-      console.error('复制失败:', err);
+      console.error(t('copy.failed') || '复制失败:', err);
     }
   };
 
@@ -77,7 +79,7 @@ export default function SymbolCard({ symbol, className, isSelected = false, onSe
           favoriteAction && "scale-125"
         )}
         onClick={handleFavoriteToggle}
-        title={isFavorite(symbol.id) ? "从常用符号中移除" : "添加到常用符号"}
+        title={isFavorite(symbol.id) ? t('favorites.remove') : t('favorites.add')}
       >
         <Star className={cn(
           "h-4 w-4 transition-all duration-200",
@@ -92,12 +94,12 @@ export default function SymbolCard({ symbol, className, isSelected = false, onSe
             copied ? "scale-110" : "hover:scale-105"
           )}
           style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}
-          title="点击快速复制符号"
+          title={t('copy.symbol')}
         >
           {symbol.symbol}
           {copied && (
             <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs px-2 py-1 rounded shadow-lg animate-pulse">
-              已复制!
+              {t('copy.success')}
             </div>
           )}
         </div>
@@ -126,12 +128,14 @@ interface SymbolGridProps {
 }
 
 export function SymbolGrid({ symbols, className, selectedSymbols = [], onSymbolSelect }: SymbolGridProps) {
+  const { t } = useLanguage();
+  
   if (symbols.length === 0) {
     return (
       <div className="text-center py-12 text-muted-foreground">
         <div className="text-6xl mb-4">🔍</div>
-        <p className="text-lg mb-2">没有找到符合条件的符号</p>
-        <p className="text-sm">请尝试调整搜索条件或选择其他分类</p>
+        <p className="text-lg mb-2">{t('search.noResults')}</p>
+        <p className="text-sm">{t('search.tips.adjust')}</p>
       </div>
     );
   }

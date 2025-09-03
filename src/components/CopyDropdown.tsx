@@ -218,12 +218,12 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
           {copied ? (
             <>
               <Check className="w-2.5 h-2.5 mr-1" />
-              {t('copy.success') || '已复制'}
+              {t('copy.success')}
             </>
           ) : (
             <>
               <Copy className="w-2.5 h-2.5 mr-1" />
-              {t('copy.symbol') || '复制'}
+              {t('copy.symbol')}
               <ChevronDown className="w-2.5 h-2.5 ml-1" />
             </>
           )}
@@ -232,12 +232,12 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
       
       <DropdownMenuContent className="w-64 bg-background border-border shadow-lg dark:bg-popover dark:border-border" align="end">
         <DropdownMenuLabel className="text-xs font-medium text-muted-foreground px-3 py-2">
-          复制格式选择
+          {t('copy.format.title')}
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
         
         {/* 常用格式 */}
-        <DropdownMenuLabel className="text-xs font-semibold px-3 py-1 text-primary">常用格式</DropdownMenuLabel>
+        <DropdownMenuLabel className="text-xs font-semibold px-3 py-1 text-primary">{t('copy.format.common')}</DropdownMenuLabel>
         {formats.slice(0, 3).map((format) => (
           <DropdownMenuItem
             key={format.label}
@@ -256,7 +256,7 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
         <DropdownMenuSeparator />
         
         {/* 编程语言 */}
-        <DropdownMenuLabel className="text-xs font-semibold px-3 py-1 text-primary">编程语言</DropdownMenuLabel>
+        <DropdownMenuLabel className="text-xs font-semibold px-3 py-1 text-primary">{t('copy.format.programming')}</DropdownMenuLabel>
         {formats.slice(5, 8).map((format) => (
           <DropdownMenuItem
             key={format.label}
@@ -275,7 +275,7 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
         <DropdownMenuSeparator />
         
         {/* Web开发 */}
-        <DropdownMenuLabel className="text-xs font-semibold px-3 py-1 text-primary">Web开发</DropdownMenuLabel>
+        <DropdownMenuLabel className="text-xs font-semibold px-3 py-1 text-primary">{t('copy.format.web')}</DropdownMenuLabel>
         {[formats[2], formats[3], formats[4], formats[10]].map((format) => (
           <DropdownMenuItem
             key={format.label}
@@ -294,7 +294,7 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
         <DropdownMenuSeparator />
         
         {/* 文档格式 */}
-        <DropdownMenuLabel className="text-xs font-semibold px-3 py-1 text-primary">文档格式</DropdownMenuLabel>
+        <DropdownMenuLabel className="text-xs font-semibold px-3 py-1 text-primary">{t('copy.format.document')}</DropdownMenuLabel>
         {[formats[8], formats[9]].map((format) => (
           <DropdownMenuItem
             key={format.label}
