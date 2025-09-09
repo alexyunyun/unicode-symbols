@@ -23,7 +23,7 @@ import {
 } from 'lucide-react';
 
 function HomePage() {
-  const { t, tArray } = useLanguage();
+  const { t, tArray, language } = useLanguage();
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [selectedSymbols, setSelectedSymbols] = useState<typeof symbols>([]);
@@ -47,6 +47,8 @@ function HomePage() {
       const query = searchQuery.toLowerCase().trim();
       filtered = filtered.filter(symbol => 
         symbol.name.toLowerCase().includes(query) ||
+        (language === 'en' && symbol.name_en && symbol.name_en.toLowerCase().includes(query)) ||
+        (language === 'ja' && symbol.name_ja && symbol.name_ja.toLowerCase().includes(query)) ||
         symbol.symbol.includes(query) ||
         symbol.unicode.toLowerCase().includes(query) ||
         symbol.category.toLowerCase().includes(query)
@@ -154,8 +156,16 @@ function HomePage() {
           {/* 当前分类信息 */}
           {currentCategory && (
             <div className="text-center">
-              <h3 className="text-xl font-semibold mb-2">{currentCategory.name}</h3>
-              <p className="text-muted-foreground text-sm mb-4">{currentCategory.description}</p>
+              <h3 className="text-xl font-semibold mb-2">
+                {language === 'en' && currentCategory.name_en ? currentCategory.name_en : 
+                 language === 'ja' && currentCategory.name_ja ? currentCategory.name_ja : 
+                 currentCategory.name}
+              </h3>
+              <p className="text-muted-foreground text-sm mb-4">
+                {language === 'en' && currentCategory.description_en ? currentCategory.description_en : 
+                 language === 'ja' && currentCategory.description_ja ? currentCategory.description_ja : 
+                 currentCategory.description}
+              </p>
               <Badge variant="outline">
                 {t('search.resultCount', { count: filteredSymbols.length })}
               </Badge>

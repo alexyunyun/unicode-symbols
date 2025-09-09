@@ -19,7 +19,7 @@ interface SymbolCardProps {
 }
 
 export default function SymbolCard({ symbol, className, isSelected = false, onSelect }: SymbolCardProps) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [copied, setCopied] = useState(false);
   const { addToFavorites, removeFromFavorites, isFavorite } = useFavorites();
   const [favoriteAction, setFavoriteAction] = useState(false);
@@ -106,7 +106,9 @@ export default function SymbolCard({ symbol, className, isSelected = false, onSe
         
         <div className="space-y-2">
           <h3 className="font-medium text-xs text-foreground/90">
-            {symbol.name}
+            {language === 'en' && symbol.name_en ? symbol.name_en : 
+             language === 'ja' && symbol.name_ja ? symbol.name_ja : 
+             symbol.name}
           </h3>
           
           <Badge variant="outline" className="text-xs font-mono">

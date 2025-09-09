@@ -19,7 +19,7 @@ export default function CategoryNav({
   symbolCounts = {},
   className 
 }: CategoryNavProps) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   
   return (
     <div className={cn("w-full space-y-4", className)}>
@@ -48,7 +48,9 @@ export default function CategoryNav({
               onClick={() => onCategoryChange(category.id)}
               className="rounded-full px-3 py-1.5 text-sm cursor-pointer transition-all hover:scale-105"
             >
-              {t(`categories.${category.id}`) || category.name}
+              {language === 'en' && category.name_en ? category.name_en : 
+               language === 'ja' && category.name_ja ? category.name_ja : 
+               t(`categories.${category.id}`) || category.name}
               {symbolCounts[category.id] && (
                 <Badge variant="secondary" className="ml-2 px-1.5 py-0.5 text-xs">
                   {symbolCounts[category.id]}

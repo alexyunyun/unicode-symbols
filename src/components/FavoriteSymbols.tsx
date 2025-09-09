@@ -15,7 +15,7 @@ interface FavoriteSymbolsProps {
 }
 
 export default function FavoriteSymbols({ className }: FavoriteSymbolsProps) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [favorites, setFavorites] = useState<Symbol[]>([]);
 
   // 避免未使用变量警告（保留接口完整性）
@@ -124,7 +124,9 @@ export default function FavoriteSymbols({ className }: FavoriteSymbolsProps) {
                       {symbol.symbol}
                     </div>
                     <div className="text-xs text-muted-foreground truncate">
-                      {symbol.name}
+                      {language === 'en' && symbol.name_en ? symbol.name_en : 
+                       language === 'ja' && symbol.name_ja ? symbol.name_ja : 
+                       symbol.name}
                     </div>
                     <Button
                       variant="ghost"
