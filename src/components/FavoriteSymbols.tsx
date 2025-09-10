@@ -121,7 +121,7 @@ function FavoriteSymbols({ className }: FavoriteSymbolsProps) {
                       />
                     </div>
                     <Button
-                      variant="ghost"
+                      variant="destructive"
                       size="sm"
                       className="absolute -top-1 -right-1 h-5 w-5 p-0 opacity-0 group-hover:opacity-100 bg-red-500 text-white rounded-full"
                       onClick={(e) => {
