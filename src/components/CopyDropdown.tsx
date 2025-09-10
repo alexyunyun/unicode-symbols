@@ -35,7 +35,7 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
     {
       label: t('copy.symbol'),
       value: sym.symbol,
-      description: '直接复制符号',
+      description: '直接复制',
     },
     {
       label: t('copy.unicode'),
@@ -225,7 +225,7 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
           variant={copied ? 'default' : 'outline'}
           size="sm"
           className={cn(
-            'w-full transition-all duration-200 cursor-pointer text-xs h-auto min-h-7 py-1 border-2',
+            'w-full transition-all duration-200 cursor-pointer text-xs h-8 px-2 border-2 whitespace-nowrap overflow-hidden',
             copied
               ? 'bg-green-500 border-green-500 text-white hover:bg-green-600 dark:bg-green-600 dark:border-green-600 dark:text-white dark:hover:bg-green-700'
               : 'hover:bg-accent hover:text-accent-foreground hover:border-primary/50 dark:hover:bg-accent dark:hover:text-accent-foreground',
@@ -234,14 +234,14 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
         >
           {copied ? (
             <>
-              <Check className="w-2.5 h-2.5 mr-1" />
-              {t('copy.success')}
+              <Check className="w-3 h-3 mr-1 flex-shrink-0" />
+              <span className="truncate">{t('copy.success')}</span>
             </>
           ) : (
             <>
-              <Copy className="w-2.5 h-2.5 mr-1" />
-              {t('copy.symbol')}
-              <ChevronDown className="w-2.5 h-2.5 ml-1" />
+              <Copy className="w-3 h-3 mr-1 flex-shrink-0" />
+              <span className="truncate">{t('copy.symbol')}</span>
+              <ChevronDown className="w-3 h-3 ml-1 flex-shrink-0" />
             </>
           )}
         </Button>
@@ -260,7 +260,7 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
         <DropdownMenuLabel className="text-xs font-semibold px-3 py-1 text-primary">
           {t('copy.format.common')}
         </DropdownMenuLabel>
-        {formats.slice(0, 3).map((format) => (
+        {formats.slice(0, 5).map((format) => (
           <DropdownMenuItem
             key={format.label}
             onClick={() => handleCopy(format)}
@@ -302,7 +302,7 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
         <DropdownMenuLabel className="text-xs font-semibold px-3 py-1 text-primary">
           {t('copy.format.web')}
         </DropdownMenuLabel>
-        {[formats[4], formats[5], formats[6], formats[12]].map((format) => (
+        {[formats[5], formats[6], formats[12]].map((format) => (
           <DropdownMenuItem
             key={format.label}
             onClick={() => handleCopy(format)}

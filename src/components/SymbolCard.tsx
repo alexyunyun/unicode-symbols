@@ -94,7 +94,7 @@ export default function SymbolCard({ symbol, className, isSelected = false, onSe
             copied ? "scale-110" : "hover:scale-105"
           )}
           style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}
-          title={t('copy.symbol')}
+          title={t('copy.clickToCopy')}
         >
           {symbol.symbol}
           {copied && (

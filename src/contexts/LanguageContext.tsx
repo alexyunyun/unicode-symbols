@@ -67,7 +67,8 @@ const TRANSLATIONS = {
     'search.tips.adjust': '请尝试调整搜索条件或选择其他分类',
     
     // 复制功能
-    'copy.symbol': '复制符号',
+    'copy.symbol': '复制',
+    'copy.clickToCopy': '点击复制',
     'copy.unicode': 'Unicode',
     'copy.html': 'HTML 实体',
     'copy.css': 'CSS 内容',
@@ -275,8 +276,9 @@ const TRANSLATIONS = {
     'search.noResults': 'No matching symbols found',
     'search.tips.adjust': 'Please try adjusting search criteria or selecting another category',
     
-    // Copy functionality
-    'copy.symbol': 'Copy Symbol',
+    // Copy features
+    'copy.symbol': 'Copy',
+    'copy.clickToCopy': 'Click to copy',
     'copy.unicode': 'Unicode',
     'copy.html': 'HTML Entity',
     'copy.css': 'CSS Content',
@@ -488,7 +490,8 @@ const TRANSLATIONS = {
     'search.tips.adjust': '検索条件を調整するか、別のカテゴリを選択してください',
     
     // コピー機能
-    'copy.symbol': '記号をコピー',
+    'copy.symbol': 'コピー',
+    'copy.clickToCopy': 'クリックしてコピー',
     'copy.unicode': 'Unicode',
     'copy.html': 'HTMLエンティティ',
     'copy.css': 'CSSコンテンツ',
