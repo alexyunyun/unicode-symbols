@@ -82,14 +82,14 @@ function FavoriteSymbols({ className }: FavoriteSymbolsProps) {
             <p className="text-sm">{t('favorites.emptyDesc')}</p>
           </div>
         ) : (
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-3">
             {favorites.map((symbol) => (
               <div
                 key={symbol.id}
                 className="group relative cursor-pointer transition-all duration-200 hover:scale-105"
               >
-                <Card className="border-2 hover:border-primary/50 transition-colors">
-                  <CardContent className="p-2 text-center">
+                <Card className="border-2 hover:border-primary/50 transition-colors min-w-[90px]">
+                  <CardContent className="p-3 text-center">
                     <div
                       className={cn(
                         'text-xl mb-1 font-mono select-none cursor-pointer relative transition-all duration-200',
@@ -123,7 +123,7 @@ function FavoriteSymbols({ className }: FavoriteSymbolsProps) {
                     <Button
                       variant="ghost"
                       size="sm"
-                      className="absolute -top-1 -right-1 h-5 w-5 p-0 transition-colors bg-red-500 hover:bg-red-600 text-white rounded-full"
+                      className="absolute -top-1 -right-1 h-5 w-5 p-0 opacity-0 group-hover:opacity-100 bg-red-500 text-white rounded-full"
                       onClick={(e) => {
                         e.stopPropagation();
                         removeFromFavorites(symbol.id);
