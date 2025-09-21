@@ -1,0 +1,158 @@
+{
+  "category": {
+    "id": "food",
+    "name": "食物生活符号",
+    "name_en": "Food & Lifestyle",
+    "name_ja": "食べ物・ライフスタイル",
+    "description": "食物和生活用品符号",
+    "description_en": "Food and lifestyle symbols",
+    "description_ja": "食べ物とライフスタイル記号"
+  },
+  "symbols": [
+    {
+      "id": "571",
+      "symbol": "🍎",
+      "name": "苹果",
+      "name_en": "Red Apple",
+      "name_ja": "リンゴ",
+      "unicode": "U+1F34E",
+      "category": "food"
+    },
+    {
+      "id": "572",
+      "symbol": "🍌",
+      "name": "香蕉",
+      "name_en": "Banana",
+      "name_ja": "バナナ",
+      "unicode": "U+1F34C",
+      "category": "food"
+    },
+    {
+      "id": "573",
+      "symbol": "🍓",
+      "name": "草莓",
+      "name_en": "Strawberry",
+      "name_ja": "イチゴ",
+      "unicode": "U+1F353",
+      "category": "food"
+    },
+    {
+      "id": "574",
+      "symbol": "🍇",
+      "name": "葡萄",
+      "name_en": "Grapes",
+      "name_ja": "ぶどう",
+      "unicode": "U+1F347",
+      "category": "food"
+    },
+    {
+      "id": "575",
+      "symbol": "🍊",
+      "name": "橘子",
+      "name_en": "Tangerine",
+      "name_ja": "みかん",
+      "unicode": "U+1F34A",
+      "category": "food"
+    },
+    {
+      "id": "576",
+      "symbol": "🍋",
+      "name": "柠檬",
+      "name_en": "Lemon",
+      "name_ja": "レモン",
+      "unicode": "U+1F34B",
+      "category": "food"
+    },
+    {
+      "id": "577",
+      "symbol": "🥝",
+      "name": "猕猴桃",
+      "name_en": "Kiwi Fruit",
+      "name_ja": "キウイ",
+      "unicode": "U+1F95D",
+      "category": "food"
+    },
+    {
+      "id": "578",
+      "symbol": "🍞",
+      "name": "面包",
+      "name_en": "Bread",
+      "name_ja": "パン",
+      "unicode": "U+1F35E",
+      "category": "food"
+    },
+    {
+      "id": "579",
+      "symbol": "🥖",
+      "name": "法棍",
+      "name_en": "Baguette Bread",
+      "name_ja": "バゲット",
+      "unicode": "U+1F956",
+      "category": "food"
+    },
+    {
+      "id": "580",
+      "symbol": "🧀",
+      "name": "奶酪",
+      "name_en": "Cheese Wedge",
+      "name_ja": "チーズ",
+      "unicode": "U+1F9C0",
+      "category": "food"
+    },
+    {
+      "id": "581",
+      "symbol": "🥛",
+      "name": "牛奶",
+      "name_en": "Glass of Milk",
+      "name_ja": "牛乳",
+      "unicode": "U+1F95B",
+      "category": "food"
+    },
+    {
+      "id": "582",
+      "symbol": "☕",
+      "name": "咖啡",
+      "name_en": "Hot Beverage",
+      "name_ja": "コーヒー",
+      "unicode": "U+2615",
+      "category": "food"
+    },
+    {
+      "id": "583",
+      "symbol": "🍵",
+      "name": "茶",
+      "name_en": "Teacup Without Handle",
+      "name_ja": "茶碗",
+      "unicode": "U+1F375",
+      "category": "food"
+    },
+    {
+      "id": "584",
+      "symbol": "🥄",
+      "name": "勺子",
+      "name_en": "Spoon",
+      "name_ja": "スプーン",
+      "unicode": "U+1F944",
+      "category": "food"
+    },
+    {
+      "id": "585",
+      "symbol": "🍴",
+      "name": "叉子和刀",
+      "name_en": "Fork and Knife",
+      "name_ja": "フォークとナイフ",
+      "unicode": "U+1F374",
+      "category": "food"
+    },
+    {
+      "id": "586",
+      "symbol": "🥢",
+      "name": "筷子",
+      "name_en": "Chopsticks",
+      "name_ja": "箸",
+      "unicode": "U+1F962",
+      "category": "food"
+    }
+  ],
+  "count": 16
+}

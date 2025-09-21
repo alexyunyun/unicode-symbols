@@ -1,0 +1,185 @@
+{
+  "category": {
+    "id": "sports",
+    "name": "运动健康符号",
+    "name_en": "Sports & Health",
+    "name_ja": "スポーツ・健康記号",
+    "description": "运动和健康相关符号",
+    "description_en": "Sports and health related symbols",
+    "description_ja": "スポーツと健康関連記号"
+  },
+  "symbols": [
+    {
+      "id": "587",
+      "symbol": "⚽",
+      "name": "足球",
+      "name_en": "Soccer Ball",
+      "name_ja": "サッカーボール",
+      "unicode": "U+26BD",
+      "category": "sports"
+    },
+    {
+      "id": "588",
+      "symbol": "🏀",
+      "name": "篮球",
+      "name_en": "Basketball",
+      "name_ja": "バスケットボール",
+      "unicode": "U+1F3C0",
+      "category": "sports"
+    },
+    {
+      "id": "589",
+      "symbol": "🏈",
+      "name": "美式足球",
+      "name_en": "American Football",
+      "name_ja": "アメリカンフットボール",
+      "unicode": "U+1F3C8",
+      "category": "sports"
+    },
+    {
+      "id": "590",
+      "symbol": "⚾",
+      "name": "棒球",
+      "name_en": "Baseball",
+      "name_ja": "野球",
+      "unicode": "U+26BE",
+      "category": "sports"
+    },
+    {
+      "id": "591",
+      "symbol": "🎾",
+      "name": "网球",
+      "name_en": "Tennis",
+      "name_ja": "テニス",
+      "unicode": "U+1F3BE",
+      "category": "sports"
+    },
+    {
+      "id": "592",
+      "symbol": "🏐",
+      "name": "排球",
+      "name_en": "Volleyball",
+      "name_ja": "バレーボール",
+      "unicode": "U+1F3D0",
+      "category": "sports"
+    },
+    {
+      "id": "593",
+      "symbol": "🏓",
+      "name": "乒乓球",
+      "name_en": "Ping Pong",
+      "name_ja": "ピンポン",
+      "unicode": "U+1F3D3",
+      "category": "sports"
+    },
+    {
+      "id": "594",
+      "symbol": "🏸",
+      "name": "羽毛球",
+      "name_en": "Badminton",
+      "name_ja": "バドミントン",
+      "unicode": "U+1F3F8",
+      "category": "sports"
+    },
+    {
+      "id": "595",
+      "symbol": "🥊",
+      "name": "拳击手套",
+      "name_en": "Boxing Glove",
+      "name_ja": "ボクシンググローブ",
+      "unicode": "U+1F94A",
+      "category": "sports"
+    },
+    {
+      "id": "596",
+      "symbol": "🤺",
+      "name": "击剑",
+      "name_en": "Fencer",
+      "name_ja": "フェンシング",
+      "unicode": "U+1F93A",
+      "category": "sports"
+    },
+    {
+      "id": "597",
+      "symbol": "🏃",
+      "name": "跑步",
+      "name_en": "Runner",
+      "name_ja": "ランナー",
+      "unicode": "U+1F3C3",
+      "category": "sports"
+    },
+    {
+      "id": "598",
+      "symbol": "🚴",
+      "name": "骑自行车",
+      "name_en": "Bicyclist",
+      "name_ja": "自転車",
+      "unicode": "U+1F6B4",
+      "category": "sports"
+    },
+    {
+      "id": "599",
+      "symbol": "🏊",
+      "name": "游泳",
+      "name_en": "Swimmer",
+      "name_ja": "水泳",
+      "unicode": "U+1F3CA",
+      "category": "sports"
+    },
+    {
+      "id": "600",
+      "symbol": "🧘",
+      "name": "冥想",
+      "name_en": "Person in Lotus Position",
+      "name_ja": "ヨガ",
+      "unicode": "U+1F9D8",
+      "category": "sports"
+    },
+    {
+      "id": "601",
+      "symbol": "💪",
+      "name": "肌肉",
+      "name_en": "Flexed Biceps",
+      "name_ja": "筋肉",
+      "unicode": "U+1F4AA",
+      "category": "sports"
+    },
+    {
+      "id": "602",
+      "symbol": "🏆",
+      "name": "奖杯",
+      "name_en": "Trophy",
+      "name_ja": "トロフィー",
+      "unicode": "U+1F3C6",
+      "category": "sports"
+    },
+    {
+      "id": "603",
+      "symbol": "🥇",
+      "name": "金牌",
+      "name_en": "First Place Medal",
+      "name_ja": "金メダル",
+      "unicode": "U+1F947",
+      "category": "sports"
+    },
+    {
+      "id": "604",
+      "symbol": "🥈",
+      "name": "银牌",
+      "name_en": "Second Place Medal",
+      "name_ja": "銀メダル",
+      "unicode": "U+1F948",
+      "category": "sports"
+    },
+    {
+      "id": "605",
+      "symbol": "🥉",
+      "name": "铜牌",
+      "name_en": "Third Place Medal",
+      "name_ja": "銅メダル",
+      "unicode": "U+1F949",
+      "category": "sports"
+    }
+  ],
+  "count": 19
+}

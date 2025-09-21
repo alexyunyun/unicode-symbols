@@ -1,0 +1,86 @@
+{
+  "category": {
+    "id": "zodiac",
+    "name": "星座占星符号",
+    "name_en": "Zodiac & Astrology",
+    "name_ja": "星座・占星術記号",
+    "description": "星座和占星术符号",
+    "description_en": "Zodiac and astrology symbols",
+    "description_ja": "星座と占星術記号"
+  },
+  "symbols": [
+    {
+      "id": "323",
+      "symbol": "♌",
+      "name": "狮子座",
+      "name_en": "Leo",
+      "name_ja": "獅子座",
+      "unicode": "U+264C",
+      "category": "zodiac"
+    },
+    {
+      "id": "324",
+      "symbol": "♍",
+      "name": "处女座",
+      "name_en": "Virgo",
+      "name_ja": "乙女座",
+      "unicode": "U+264D",
+      "category": "zodiac"
+    },
+    {
+      "id": "325",
+      "symbol": "♎",
+      "name": "天秤座",
+      "name_en": "Libra",
+      "name_ja": "天秤座",
+      "unicode": "U+264E",
+      "category": "zodiac"
+    },
+    {
+      "id": "326",
+      "symbol": "♏",
+      "name": "天蝎座",
+      "name_en": "Scorpio",
+      "name_ja": "蠍座",
+      "unicode": "U+264F",
+      "category": "zodiac"
+    },
+    {
+      "id": "327",
+      "symbol": "♐",
+      "name": "射手座",
+      "name_en": "Sagittarius",
+      "name_ja": "射手座",
+      "unicode": "U+2650",
+      "category": "zodiac"
+    },
+    {
+      "id": "328",
+      "symbol": "♑",
+      "name": "摩羯座",
+      "name_en": "Capricorn",
+      "name_ja": "山羊座",
+      "unicode": "U+2651",
+      "category": "zodiac"
+    },
+    {
+      "id": "329",
+      "symbol": "♒",
+      "name": "水瓶座",
+      "name_en": "Aquarius",
+      "name_ja": "水瓶座",
+      "unicode": "U+2652",
+      "category": "zodiac"
+    },
+    {
+      "id": "330",
+      "symbol": "♓",
+      "name": "双鱼座",
+      "name_en": "Pisces",
+      "name_ja": "魚座",
+      "unicode": "U+2653",
+      "category": "zodiac"
+    }
+  ],
+  "count": 8
+}

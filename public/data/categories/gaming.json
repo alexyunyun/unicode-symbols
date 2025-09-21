@@ -1,0 +1,122 @@
+{
+  "category": {
+    "id": "gaming",
+    "name": "游戏娱乐符号",
+    "name_en": "Gaming & Entertainment",
+    "name_ja": "ゲーム・エンターテイメント",
+    "description": "游戏和娱乐相关符号",
+    "description_en": "Gaming and entertainment related symbols",
+    "description_ja": "ゲームとエンターテイメント関連記号"
+  },
+  "symbols": [
+    {
+      "id": "523",
+      "symbol": "♠",
+      "name": "黑桃",
+      "name_en": "Black Spade Suit",
+      "name_ja": "スペード",
+      "unicode": "U+2660",
+      "category": "gaming"
+    },
+    {
+      "id": "524",
+      "symbol": "♣",
+      "name": "梅花",
+      "name_en": "Black Club Suit",
+      "name_ja": "クラブ",
+      "unicode": "U+2663",
+      "category": "gaming"
+    },
+    {
+      "id": "525",
+      "symbol": "♥",
+      "name": "红桃",
+      "name_en": "Black Heart Suit",
+      "name_ja": "ハート",
+      "unicode": "U+2665",
+      "category": "gaming"
+    },
+    {
+      "id": "526",
+      "symbol": "♦",
+      "name": "方块",
+      "name_en": "Black Diamond Suit",
+      "name_ja": "ダイヤ",
+      "unicode": "U+2666",
+      "category": "gaming"
+    },
+    {
+      "id": "527",
+      "symbol": "🎲",
+      "name": "骰子",
+      "name_en": "Game Die",
+      "name_ja": "サイコロ",
+      "unicode": "U+1F3B2",
+      "category": "gaming"
+    },
+    {
+      "id": "528",
+      "symbol": "🎯",
+      "name": "飞镖盘",
+      "name_en": "Direct Hit",
+      "name_ja": "的中",
+      "unicode": "U+1F3AF",
+      "category": "gaming"
+    },
+    {
+      "id": "529",
+      "symbol": "🎮",
+      "name": "游戏手柄",
+      "name_en": "Video Game",
+      "name_ja": "ゲームパッド",
+      "unicode": "U+1F3AE",
+      "category": "gaming"
+    },
+    {
+      "id": "530",
+      "symbol": "🎪",
+      "name": "马戏团",
+      "name_en": "Circus Tent",
+      "name_ja": "サーカス",
+      "unicode": "U+1F3AA",
+      "category": "gaming"
+    },
+    {
+      "id": "531",
+      "symbol": "🎭",
+      "name": "表演艺术",
+      "name_en": "Performing Arts",
+      "name_ja": "演劇",
+      "unicode": "U+1F3AD",
+      "category": "gaming"
+    },
+    {
+      "id": "532",
+      "symbol": "🎨",
+      "name": "调色板",
+      "name_en": "Artist Palette",
+      "name_ja": "パレット",
+      "unicode": "U+1F3A8",
+      "category": "gaming"
+    },
+    {
+      "id": "533",
+      "symbol": "🎬",
+      "name": "场记板",
+      "name_en": "Clapper Board",
+      "name_ja": "クラッパー",
+      "unicode": "U+1F3AC",
+      "category": "gaming"
+    },
+    {
+      "id": "534",
+      "symbol": "🎼",
+      "name": "乐谱",
+      "name_en": "Musical Score",
+      "name_ja": "楽譜",
+      "unicode": "U+1F3BC",
+      "category": "gaming"
+    }
+  ],
+  "count": 12
+}

@@ -1,0 +1,104 @@
+{
+  "category": {
+    "id": "regional",
+    "name": "各地区常用符号",
+    "name_en": "Regional",
+    "name_ja": "地域別記号",
+    "description": "不同地区的特色符号",
+    "description_en": "Symbols from different regions",
+    "description_ja": "異なる地域の特色記号"
+  },
+  "symbols": [
+    {
+      "id": "101",
+      "symbol": "§",
+      "name": "节号",
+      "name_en": "Section Sign",
+      "name_ja": "節記号",
+      "unicode": "U+00A7",
+      "category": "regional"
+    },
+    {
+      "id": "102",
+      "symbol": "¶",
+      "name": "段落符号",
+      "name_en": "Pilcrow Sign",
+      "name_ja": "段落記号",
+      "unicode": "U+00B6",
+      "category": "regional"
+    },
+    {
+      "id": "103",
+      "symbol": "†",
+      "name": "十字架",
+      "name_en": "Dagger",
+      "name_ja": "ダガー",
+      "unicode": "U+2020",
+      "category": "regional"
+    },
+    {
+      "id": "104",
+      "symbol": "‡",
+      "name": "双十字架",
+      "name_en": "Double Dagger",
+      "name_ja": "ダブルダガー",
+      "unicode": "U+2021",
+      "category": "regional"
+    },
+    {
+      "id": "105",
+      "symbol": "•",
+      "name": "项目符号",
+      "name_en": "Bullet",
+      "name_ja": "箇条書き",
+      "unicode": "U+2022",
+      "category": "regional"
+    },
+    {
+      "id": "106",
+      "symbol": "‰",
+      "name": "千分号",
+      "name_en": "Per Mille Sign",
+      "name_ja": "パーミル記号",
+      "unicode": "U+2030",
+      "category": "regional"
+    },
+    {
+      "id": "107",
+      "symbol": "′",
+      "name": "分符号",
+      "name_en": "Prime",
+      "name_ja": "プライム",
+      "unicode": "U+2032",
+      "category": "regional"
+    },
+    {
+      "id": "108",
+      "symbol": "″",
+      "name": "秒符号",
+      "name_en": "Double Prime",
+      "name_ja": "ダブルプライム",
+      "unicode": "U+2033",
+      "category": "regional"
+    },
+    {
+      "id": "109",
+      "symbol": "‴",
+      "name": "三重素数",
+      "name_en": "Triple Prime",
+      "name_ja": "トリプルプライム",
+      "unicode": "U+2034",
+      "category": "regional"
+    },
+    {
+      "id": "110",
+      "symbol": "※",
+      "name": "参考标记",
+      "name_en": "Reference Mark",
+      "name_ja": "参照記号",
+      "unicode": "U+203B",
+      "category": "regional"
+    }
+  ],
+  "count": 10
+}

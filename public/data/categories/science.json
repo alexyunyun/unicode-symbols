@@ -1,0 +1,176 @@
+{
+  "category": {
+    "id": "science",
+    "name": "科学工程符号",
+    "name_en": "Science & Engineering",
+    "name_ja": "科学・工学記号",
+    "description": "科学和工程专业符号",
+    "description_en": "Science and engineering professional symbols",
+    "description_ja": "科学と工学専門記号"
+  },
+  "symbols": [
+    {
+      "id": "606",
+      "symbol": "⚛️",
+      "name": "原子符号",
+      "name_en": "Atom Symbol",
+      "name_ja": "原子記号",
+      "unicode": "U+269B",
+      "category": "science"
+    },
+    {
+      "id": "607",
+      "symbol": "🔬",
+      "name": "显微镜",
+      "name_en": "Microscope",
+      "name_ja": "顕微鏡",
+      "unicode": "U+1F52C",
+      "category": "science"
+    },
+    {
+      "id": "608",
+      "symbol": "🧪",
+      "name": "试管",
+      "name_en": "Test Tube",
+      "name_ja": "試験管",
+      "unicode": "U+1F9EA",
+      "category": "science"
+    },
+    {
+      "id": "609",
+      "symbol": "🧬",
+      "name": "DNA",
+      "name_en": "DNA",
+      "name_ja": "DNA",
+      "unicode": "U+1F9EC",
+      "category": "science"
+    },
+    {
+      "id": "610",
+      "symbol": "🦠",
+      "name": "细菌",
+      "name_en": "Microbe",
+      "name_ja": "微生物",
+      "unicode": "U+1F9A0",
+      "category": "science"
+    },
+    {
+      "id": "611",
+      "symbol": "💉",
+      "name": "注射器",
+      "name_en": "Syringe",
+      "name_ja": "注射器",
+      "unicode": "U+1F489",
+      "category": "science"
+    },
+    {
+      "id": "612",
+      "symbol": "💊",
+      "name": "药丸",
+      "name_en": "Pill",
+      "name_ja": "薬",
+      "unicode": "U+1F48A",
+      "category": "science"
+    },
+    {
+      "id": "613",
+      "symbol": "🩺",
+      "name": "听诊器",
+      "name_en": "Stethoscope",
+      "name_ja": "聴診器",
+      "unicode": "U+1FA7A",
+      "category": "science"
+    },
+    {
+      "id": "614",
+      "symbol": "🌡️",
+      "name": "温度计",
+      "name_en": "Thermometer",
+      "name_ja": "温度計",
+      "unicode": "U+1F321",
+      "category": "science"
+    },
+    {
+      "id": "615",
+      "symbol": "⚗️",
+      "name": "蒸馏器",
+      "name_en": "Alembic",
+      "name_ja": "蒸留器",
+      "unicode": "U+2697",
+      "category": "science"
+    },
+    {
+      "id": "616",
+      "symbol": "🔭",
+      "name": "望远镜",
+      "name_en": "Telescope",
+      "name_ja": "望遠鏡",
+      "unicode": "U+1F52D",
+      "category": "science"
+    },
+    {
+      "id": "617",
+      "symbol": "📡",
+      "name": "卫星天线",
+      "name_en": "Satellite Antenna",
+      "name_ja": "衛星アンテナ",
+      "unicode": "U+1F4E1",
+      "category": "science"
+    },
+    {
+      "id": "618",
+      "symbol": "🔋",
+      "name": "电池",
+      "name_en": "Battery",
+      "name_ja": "電池",
+      "unicode": "U+1F50B",
+      "category": "science"
+    },
+    {
+      "id": "619",
+      "symbol": "⚡",
+      "name": "高压电",
+      "name_en": "High Voltage",
+      "name_ja": "高電圧",
+      "unicode": "U+26A1",
+      "category": "science"
+    },
+    {
+      "id": "620",
+      "symbol": "🔌",
+      "name": "电源插头",
+      "name_en": "Electric Plug",
+      "name_ja": "電源プラグ",
+      "unicode": "U+1F50C",
+      "category": "science"
+    },
+    {
+      "id": "621",
+      "symbol": "💡",
+      "name": "灯泡",
+      "name_en": "Light Bulb",
+      "name_ja": "電球",
+      "unicode": "U+1F4A1",
+      "category": "science"
+    },
+    {
+      "id": "622",
+      "symbol": "🔦",
+      "name": "手电筒",
+      "name_en": "Flashlight",
+      "name_ja": "懐中電灯",
+      "unicode": "U+1F526",
+      "category": "science"
+    },
+    {
+      "id": "623",
+      "symbol": "🛸",
+      "name": "UFO",
+      "name_en": "Flying Saucer",
+      "name_ja": "UFO",
+      "unicode": "U+1F6F8",
+      "category": "science"
+    }
+  ],
+  "count": 18
+}

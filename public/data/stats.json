@@ -1,0 +1,122 @@
+{
+  "totalCategories": 22,
+  "totalSymbols": 528,
+  "symbolsByCategory": [
+    {
+      "id": "mathematical",
+      "name": "数学符号",
+      "count": 114
+    },
+    {
+      "id": "currency",
+      "name": "货币符号",
+      "count": 25
+    },
+    {
+      "id": "arrows",
+      "name": "箭头符号",
+      "count": 44
+    },
+    {
+      "id": "punctuation",
+      "name": "标点符号",
+      "count": 21
+    },
+    {
+      "id": "shapes",
+      "name": "几何图形",
+      "count": 24
+    },
+    {
+      "id": "miscellaneous",
+      "name": "其他符号",
+      "count": 13
+    },
+    {
+      "id": "emoticons",
+      "name": "表情符号",
+      "count": 91
+    },
+    {
+      "id": "technical",
+      "name": "技术符号",
+      "count": 25
+    },
+    {
+      "id": "weather",
+      "name": "天气符号",
+      "count": 7
+    },
+    {
+      "id": "office",
+      "name": "办公符号",
+      "count": 6
+    },
+    {
+      "id": "combination",
+      "name": "复选框和方框",
+      "count": 10
+    },
+    {
+      "id": "regional",
+      "name": "各地区常用符号",
+      "count": 10
+    },
+    {
+      "id": "legal",
+      "name": "法律商业符号",
+      "count": 7
+    },
+    {
+      "id": "religious",
+      "name": "宗教文化符号",
+      "count": 12
+    },
+    {
+      "id": "zodiac",
+      "name": "星座占星符号",
+      "count": 8
+    },
+    {
+      "id": "gaming",
+      "name": "游戏娱乐符号",
+      "count": 12
+    },
+    {
+      "id": "transport",
+      "name": "交通建筑符号",
+      "count": 18
+    },
+    {
+      "id": "nature",
+      "name": "自然环境符号",
+      "count": 18
+    },
+    {
+      "id": "food",
+      "name": "食物生活符号",
+      "count": 16
+    },
+    {
+      "id": "sports",
+      "name": "运动健康符号",
+      "count": 19
+    },
+    {
+      "id": "music",
+      "name": "音乐艺术符号",
+      "count": 10
+    },
+    {
+      "id": "science",
+      "name": "科学工程符号",
+      "count": 18
+    }
+  ],
+  "languages": [
+    "zh",
+    "en",
+    "ja"
+  ],
+  "exportTime": "2025-09-21T02:51:47.339Z"
+}

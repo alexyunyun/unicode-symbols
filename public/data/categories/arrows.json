@@ -1,0 +1,410 @@
+{
+  "category": {
+    "id": "arrows",
+    "name": "箭头符号",
+    "name_en": "Arrows",
+    "name_ja": "矢印記号",
+    "description": "方向指示符号",
+    "description_en": "Directional indicators",
+    "description_ja": "方向指示記号"
+  },
+  "symbols": [
+    {
+      "id": "37",
+      "symbol": "←",
+      "name": "左箭头",
+      "name_en": "Left Arrow",
+      "name_ja": "左矢印",
+      "unicode": "U+2190",
+      "category": "arrows"
+    },
+    {
+      "id": "38",
+      "symbol": "→",
+      "name": "右箭头",
+      "name_en": "Right Arrow",
+      "name_ja": "右矢印",
+      "unicode": "U+2192",
+      "category": "arrows"
+    },
+    {
+      "id": "39",
+      "symbol": "↑",
+      "name": "上箭头",
+      "name_en": "Up Arrow",
+      "name_ja": "上矢印",
+      "unicode": "U+2191",
+      "category": "arrows"
+    },
+    {
+      "id": "40",
+      "symbol": "↓",
+      "name": "下箭头",
+      "name_en": "Down Arrow",
+      "name_ja": "下矢印",
+      "unicode": "U+2193",
+      "category": "arrows"
+    },
+    {
+      "id": "41",
+      "symbol": "↔",
+      "name": "左右箭头",
+      "name_en": "Left Right Arrow",
+      "name_ja": "左右矢印",
+      "unicode": "U+2194",
+      "category": "arrows"
+    },
+    {
+      "id": "42",
+      "symbol": "↕",
+      "name": "上下箭头",
+      "name_en": "Up Down Arrow",
+      "name_ja": "上下矢印",
+      "unicode": "U+2195",
+      "category": "arrows"
+    },
+    {
+      "id": "43",
+      "symbol": "⇐",
+      "name": "双线左箭头",
+      "name_en": "Leftwards Double Arrow",
+      "name_ja": "左二重矢印",
+      "unicode": "U+21D0",
+      "category": "arrows"
+    },
+    {
+      "id": "44",
+      "symbol": "⇒",
+      "name": "双线右箭头",
+      "name_en": "Rightwards Double Arrow",
+      "name_ja": "右二重矢印",
+      "unicode": "U+21D2",
+      "category": "arrows"
+    },
+    {
+      "id": "45",
+      "symbol": "⇑",
+      "name": "双线上箭头",
+      "name_en": "Upwards Double Arrow",
+      "name_ja": "上二重矢印",
+      "unicode": "U+21D1",
+      "category": "arrows"
+    },
+    {
+      "id": "46",
+      "symbol": "⇓",
+      "name": "双线下箭头",
+      "name_en": "Downwards Double Arrow",
+      "name_ja": "下二重矢印",
+      "unicode": "U+21D3",
+      "category": "arrows"
+    },
+    {
+      "id": "126",
+      "symbol": "↖",
+      "name": "左上箭头",
+      "name_en": "North West Arrow",
+      "name_ja": "北西矢印",
+      "unicode": "U+2196",
+      "category": "arrows"
+    },
+    {
+      "id": "127",
+      "symbol": "↗",
+      "name": "右上箭头",
+      "name_en": "North East Arrow",
+      "name_ja": "北東矢印",
+      "unicode": "U+2197",
+      "category": "arrows"
+    },
+    {
+      "id": "128",
+      "symbol": "↘",
+      "name": "右下箭头",
+      "name_en": "South East Arrow",
+      "name_ja": "南東矢印",
+      "unicode": "U+2198",
+      "category": "arrows"
+    },
+    {
+      "id": "129",
+      "symbol": "↙",
+      "name": "左下箭头",
+      "name_en": "South West Arrow",
+      "name_ja": "南西矢印",
+      "unicode": "U+2199",
+      "category": "arrows"
+    },
+    {
+      "id": "130",
+      "symbol": "↺",
+      "name": "逆时针箭头",
+      "name_en": "Anticlockwise Top Semicircle Arrow",
+      "name_ja": "反時計回り上半円矢印",
+      "unicode": "U+21BA",
+      "category": "arrows"
+    },
+    {
+      "id": "131",
+      "symbol": "↻",
+      "name": "顺时针箭头",
+      "name_en": "Clockwise Top Semicircle Arrow",
+      "name_ja": "時計回り上半円矢印",
+      "unicode": "U+21BB",
+      "category": "arrows"
+    },
+    {
+      "id": "132",
+      "symbol": "⟵",
+      "name": "长左箭头",
+      "name_en": "Long Leftwards Arrow",
+      "name_ja": "長い左矢印",
+      "unicode": "U+27F5",
+      "category": "arrows"
+    },
+    {
+      "id": "133",
+      "symbol": "⟶",
+      "name": "长右箭头",
+      "name_en": "Long Rightwards Arrow",
+      "name_ja": "長い右矢印",
+      "unicode": "U+27F6",
+      "category": "arrows"
+    },
+    {
+      "id": "134",
+      "symbol": "⟷",
+      "name": "长双向箭头",
+      "name_en": "Long Left Right Arrow",
+      "name_ja": "長い左右矢印",
+      "unicode": "U+27F7",
+      "category": "arrows"
+    },
+    {
+      "id": "135",
+      "symbol": "⟸",
+      "name": "长双线左箭头",
+      "name_en": "Long Leftwards Double Arrow",
+      "name_ja": "長い左二重矢印",
+      "unicode": "U+27F8",
+      "category": "arrows"
+    },
+    {
+      "id": "352",
+      "symbol": "↩",
+      "name": "左转箭头",
+      "name_en": "Leftwards Arrow with Hook",
+      "name_ja": "フック付き左矢印",
+      "unicode": "U+21A9",
+      "category": "arrows"
+    },
+    {
+      "id": "353",
+      "symbol": "↪",
+      "name": "右转箭头",
+      "name_en": "Rightwards Arrow with Hook",
+      "name_ja": "フック付き右矢印",
+      "unicode": "U+21AA",
+      "category": "arrows"
+    },
+    {
+      "id": "354",
+      "symbol": "⤴",
+      "name": "向上右转箭头",
+      "name_en": "Arrow Pointing Rightwards Then Curving Upwards",
+      "name_ja": "右に曲がって上向きの矢印",
+      "unicode": "U+2934",
+      "category": "arrows"
+    },
+    {
+      "id": "355",
+      "symbol": "⤵",
+      "name": "向下右转箭头",
+      "name_en": "Arrow Pointing Rightwards Then Curving Downwards",
+      "name_ja": "右に曲がって下向きの矢印",
+      "unicode": "U+2935",
+      "category": "arrows"
+    },
+    {
+      "id": "356",
+      "symbol": "⭅",
+      "name": "左上箭头",
+      "name_en": "Leftwards Triangle-Headed Arrow",
+      "name_ja": "左向き三角矢印",
+      "unicode": "U+2B45",
+      "category": "arrows"
+    },
+    {
+      "id": "357",
+      "symbol": "⭆",
+      "name": "右上箭头",
+      "name_en": "Rightwards Triangle-Headed Arrow",
+      "name_ja": "右向き三角矢印",
+      "unicode": "U+2B46",
+      "category": "arrows"
+    },
+    {
+      "id": "358",
+      "symbol": "⭇",
+      "name": "右下箭头",
+      "name_en": "Downwards Triangle-Headed Arrow",
+      "name_ja": "下向き三角矢印",
+      "unicode": "U+2B47",
+      "category": "arrows"
+    },
+    {
+      "id": "359",
+      "symbol": "⭈",
+      "name": "左下箭头",
+      "name_en": "Leftwards Triangle-Headed Arrow to Bar",
+      "name_ja": "バー付き左向き三角矢印",
+      "unicode": "U+2B48",
+      "category": "arrows"
+    },
+    {
+      "id": "360",
+      "symbol": "⭉",
+      "name": "向上箭头",
+      "name_en": "Upwards Triangle-Headed Arrow",
+      "name_ja": "上向き三角矢印",
+      "unicode": "U+2B49",
+      "category": "arrows"
+    },
+    {
+      "id": "361",
+      "symbol": "⭊",
+      "name": "向下箭头",
+      "name_en": "Downwards Triangle-Headed Arrow",
+      "name_ja": "下向き三角矢印",
+      "unicode": "U+2B4A",
+      "category": "arrows"
+    },
+    {
+      "id": "362",
+      "symbol": "⭋",
+      "name": "向左箭头",
+      "name_en": "Leftwards Triangle-Headed Arrow",
+      "name_ja": "左向き三角矢印",
+      "unicode": "U+2B4B",
+      "category": "arrows"
+    },
+    {
+      "id": "363",
+      "symbol": "⭌",
+      "name": "向右箭头",
+      "name_en": "Rightwards Triangle-Headed Arrow",
+      "name_ja": "右向き三角矢印",
+      "unicode": "U+2B4C",
+      "category": "arrows"
+    },
+    {
+      "id": "638",
+      "symbol": "⤴️",
+      "name": "右弯箭头向上",
+      "name_en": "Arrow Pointing Rightwards Then Curving Upwards",
+      "name_ja": "右上カーブ矢印",
+      "unicode": "U+2934",
+      "category": "arrows"
+    },
+    {
+      "id": "639",
+      "symbol": "⤵️",
+      "name": "右弯箭头向下",
+      "name_en": "Arrow Pointing Rightwards Then Curving Downwards",
+      "name_ja": "右下カーブ矢印",
+      "unicode": "U+2935",
+      "category": "arrows"
+    },
+    {
+      "id": "640",
+      "symbol": "↩️",
+      "name": "左钩箭头",
+      "name_en": "Leftwards Arrow with Hook",
+      "name_ja": "左フック矢印",
+      "unicode": "U+21A9",
+      "category": "arrows"
+    },
+    {
+      "id": "641",
+      "symbol": "↪️",
+      "name": "右钩箭头",
+      "name_en": "Rightwards Arrow with Hook",
+      "name_ja": "右フック矢印",
+      "unicode": "U+21AA",
+      "category": "arrows"
+    },
+    {
+      "id": "642",
+      "symbol": "↖",
+      "name": "左上箭头",
+      "name_en": "North West Arrow",
+      "name_ja": "左上矢印",
+      "unicode": "U+2196",
+      "category": "arrows"
+    },
+    {
+      "id": "643",
+      "symbol": "↗",
+      "name": "右上箭头",
+      "name_en": "North East Arrow",
+      "name_ja": "右上矢印",
+      "unicode": "U+2197",
+      "category": "arrows"
+    },
+    {
+      "id": "644",
+      "symbol": "↘",
+      "name": "右下箭头",
+      "name_en": "South East Arrow",
+      "name_ja": "右下矢印",
+      "unicode": "U+2198",
+      "category": "arrows"
+    },
+    {
+      "id": "645",
+      "symbol": "↙",
+      "name": "左下箭头",
+      "name_en": "South West Arrow",
+      "name_ja": "左下矢印",
+      "unicode": "U+2199",
+      "category": "arrows"
+    },
+    {
+      "id": "646",
+      "symbol": "🔄",
+      "name": "循环箭头",
+      "name_en": "Clockwise Rightwards and Leftwards Open Circle Arrows",
+      "name_ja": "循環矢印",
+      "unicode": "U+1F504",
+      "category": "arrows"
+    },
+    {
+      "id": "647",
+      "symbol": "🔃",
+      "name": "顺时针箭头",
+      "name_en": "Clockwise Downwards and Upwards Open Circle Arrows",
+      "name_ja": "時計回り矢印",
+      "unicode": "U+1F503",
+      "category": "arrows"
+    },
+    {
+      "id": "648",
+      "symbol": "🔁",
+      "name": "重复箭头",
+      "name_en": "Clockwise Rightwards and Leftwards Open Circle Arrows with Circled One Overlay",
+      "name_ja": "繰り返し矢印",
+      "unicode": "U+1F501",
+      "category": "arrows"
+    },
+    {
+      "id": "649",
+      "symbol": "🔀",
+      "name": "交叉箭头",
+      "name_en": "Twisted Rightwards Arrows",
+      "name_ja": "シャッフル矢印",
+      "unicode": "U+1F500",
+      "category": "arrows"
+    }
+  ],
+  "count": 44
+}

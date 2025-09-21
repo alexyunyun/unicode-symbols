@@ -1,0 +1,68 @@
+{
+  "category": {
+    "id": "office",
+    "name": "办公符号",
+    "name_en": "Office",
+    "name_ja": "オフィス記号",
+    "description": "办公常用符号",
+    "description_en": "Common office symbols",
+    "description_ja": "一般的なオフィス記号"
+  },
+  "symbols": [
+    {
+      "id": "76",
+      "symbol": "📝",
+      "name": "备忘录",
+      "name_en": "Memo",
+      "name_ja": "メモ",
+      "unicode": "U+1F4DD",
+      "category": "office"
+    },
+    {
+      "id": "77",
+      "symbol": "📊",
+      "name": "条形图",
+      "name_en": "Bar Chart",
+      "name_ja": "棒グラフ",
+      "unicode": "U+1F4CA",
+      "category": "office"
+    },
+    {
+      "id": "78",
+      "symbol": "📈",
+      "name": "上升趋势图",
+      "name_en": "Chart Increasing",
+      "name_ja": "上昇チャート",
+      "unicode": "U+1F4C8",
+      "category": "office"
+    },
+    {
+      "id": "79",
+      "symbol": "📉",
+      "name": "下降趋势图",
+      "name_en": "Chart Decreasing",
+      "name_ja": "下降チャート",
+      "unicode": "U+1F4C9",
+      "category": "office"
+    },
+    {
+      "id": "80",
+      "symbol": "💼",
+      "name": "公文包",
+      "name_en": "Briefcase",
+      "name_ja": "ブリーフケース",
+      "unicode": "U+1F4BC",
+      "category": "office"
+    },
+    {
+      "id": "81",
+      "symbol": "🗂️",
+      "name": "文件夹分隔器",
+      "name_en": "Card Index Dividers",
+      "name_ja": "カードインデックス仕切り",
+      "unicode": "U+1F5C2",
+      "category": "office"
+    }
+  ],
+  "count": 6
+}

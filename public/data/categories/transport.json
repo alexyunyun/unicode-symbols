@@ -1,0 +1,176 @@
+{
+  "category": {
+    "id": "transport",
+    "name": "交通建筑符号",
+    "name_en": "Transport & Architecture",
+    "name_ja": "交通・建築記号",
+    "description": "交通工具和建筑符号",
+    "description_en": "Transportation and architectural symbols",
+    "description_ja": "交通機関と建築記号"
+  },
+  "symbols": [
+    {
+      "id": "535",
+      "symbol": "🚗",
+      "name": "汽车",
+      "name_en": "Automobile",
+      "name_ja": "自動車",
+      "unicode": "U+1F697",
+      "category": "transport"
+    },
+    {
+      "id": "536",
+      "symbol": "🚙",
+      "name": "SUV",
+      "name_en": "Sport Utility Vehicle",
+      "name_ja": "SUV",
+      "unicode": "U+1F699",
+      "category": "transport"
+    },
+    {
+      "id": "537",
+      "symbol": "🚌",
+      "name": "公交车",
+      "name_en": "Bus",
+      "name_ja": "バス",
+      "unicode": "U+1F68C",
+      "category": "transport"
+    },
+    {
+      "id": "538",
+      "symbol": "🚎",
+      "name": "电车",
+      "name_en": "Trolleybus",
+      "name_ja": "トロリーバス",
+      "unicode": "U+1F68E",
+      "category": "transport"
+    },
+    {
+      "id": "539",
+      "symbol": "🚐",
+      "name": "小巴",
+      "name_en": "Minibus",
+      "name_ja": "ミニバス",
+      "unicode": "U+1F690",
+      "category": "transport"
+    },
+    {
+      "id": "540",
+      "symbol": "🚑",
+      "name": "救护车",
+      "name_en": "Ambulance",
+      "name_ja": "救急車",
+      "unicode": "U+1F691",
+      "category": "transport"
+    },
+    {
+      "id": "541",
+      "symbol": "🚒",
+      "name": "消防车",
+      "name_en": "Fire Engine",
+      "name_ja": "消防車",
+      "unicode": "U+1F692",
+      "category": "transport"
+    },
+    {
+      "id": "542",
+      "symbol": "🚓",
+      "name": "警车",
+      "name_en": "Police Car",
+      "name_ja": "パトカー",
+      "unicode": "U+1F693",
+      "category": "transport"
+    },
+    {
+      "id": "543",
+      "symbol": "🚲",
+      "name": "自行车",
+      "name_en": "Bicycle",
+      "name_ja": "自転車",
+      "unicode": "U+1F6B2",
+      "category": "transport"
+    },
+    {
+      "id": "544",
+      "symbol": "🛴",
+      "name": "滑板车",
+      "name_en": "Kick Scooter",
+      "name_ja": "キックスクーター",
+      "unicode": "U+1F6F4",
+      "category": "transport"
+    },
+    {
+      "id": "545",
+      "symbol": "✈️",
+      "name": "飞机",
+      "name_en": "Airplane",
+      "name_ja": "飛行機",
+      "unicode": "U+2708",
+      "category": "transport"
+    },
+    {
+      "id": "546",
+      "symbol": "🚁",
+      "name": "直升机",
+      "name_en": "Helicopter",
+      "name_ja": "ヘリコプター",
+      "unicode": "U+1F681",
+      "category": "transport"
+    },
+    {
+      "id": "547",
+      "symbol": "🚀",
+      "name": "火箭",
+      "name_en": "Rocket",
+      "name_ja": "ロケット",
+      "unicode": "U+1F680",
+      "category": "transport"
+    },
+    {
+      "id": "548",
+      "symbol": "🏠",
+      "name": "房屋",
+      "name_en": "House Building",
+      "name_ja": "家",
+      "unicode": "U+1F3E0",
+      "category": "transport"
+    },
+    {
+      "id": "549",
+      "symbol": "🏢",
+      "name": "办公楼",
+      "name_en": "Office Building",
+      "name_ja": "オフィスビル",
+      "unicode": "U+1F3E2",
+      "category": "transport"
+    },
+    {
+      "id": "550",
+      "symbol": "🏭",
+      "name": "工厂",
+      "name_en": "Factory",
+      "name_ja": "工場",
+      "unicode": "U+1F3ED",
+      "category": "transport"
+    },
+    {
+      "id": "551",
+      "symbol": "🏬",
+      "name": "商场",
+      "name_en": "Department Store",
+      "name_ja": "デパート",
+      "unicode": "U+1F3EC",
+      "category": "transport"
+    },
+    {
+      "id": "552",
+      "symbol": "🏰",
+      "name": "城堡",
+      "name_en": "European Castle",
+      "name_ja": "城",
+      "unicode": "U+1F3F0",
+      "category": "transport"
+    }
+  ],
+  "count": 18
+}

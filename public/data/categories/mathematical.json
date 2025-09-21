@@ -1,0 +1,1040 @@
+{
+  "category": {
+    "id": "mathematical",
+    "name": "数学符号",
+    "name_en": "Mathematical",
+    "name_ja": "数学記号",
+    "description": "数学运算和逻辑符号",
+    "description_en": "Mathematical and logical symbols",
+    "description_ja": "数学と論理記号"
+  },
+  "symbols": [
+    {
+      "id": "21",
+      "symbol": "+",
+      "name": "加号",
+      "name_en": "Plus Sign",
+      "name_ja": "プラス記号",
+      "unicode": "U+002B",
+      "category": "mathematical"
+    },
+    {
+      "id": "22",
+      "symbol": "−",
+      "name": "减号",
+      "name_en": "Minus Sign",
+      "name_ja": "マイナス記号",
+      "unicode": "U+2212",
+      "category": "mathematical"
+    },
+    {
+      "id": "23",
+      "symbol": "×",
+      "name": "乘号",
+      "name_en": "Multiplication Sign",
+      "name_ja": "乗算記号",
+      "unicode": "U+00D7",
+      "category": "mathematical"
+    },
+    {
+      "id": "24",
+      "symbol": "÷",
+      "name": "除号",
+      "name_en": "Division Sign",
+      "name_ja": "除算記号",
+      "unicode": "U+00F7",
+      "category": "mathematical"
+    },
+    {
+      "id": "25",
+      "symbol": "=",
+      "name": "等号",
+      "name_en": "Equals Sign",
+      "name_ja": "等号",
+      "unicode": "U+003D",
+      "category": "mathematical"
+    },
+    {
+      "id": "26",
+      "symbol": "≠",
+      "name": "不等号",
+      "name_en": "Not Equal To",
+      "name_ja": "等号否定",
+      "unicode": "U+2260",
+      "category": "mathematical"
+    },
+    {
+      "id": "27",
+      "symbol": "≈",
+      "name": "约等于",
+      "name_en": "Almost Equal To",
+      "name_ja": "ほぼ等しい",
+      "unicode": "U+2248",
+      "category": "mathematical"
+    },
+    {
+      "id": "28",
+      "symbol": "∞",
+      "name": "无穷大",
+      "name_en": "Infinity",
+      "name_ja": "無限大",
+      "unicode": "U+221E",
+      "category": "mathematical"
+    },
+    {
+      "id": "29",
+      "symbol": "∑",
+      "name": "求和",
+      "name_en": "Summation",
+      "name_ja": "総和",
+      "unicode": "U+2211",
+      "category": "mathematical"
+    },
+    {
+      "id": "30",
+      "symbol": "∫",
+      "name": "积分",
+      "name_en": "Integral",
+      "name_ja": "積分",
+      "unicode": "U+222B",
+      "category": "mathematical"
+    },
+    {
+      "id": "111",
+      "symbol": "±",
+      "name": "正负号",
+      "name_en": "Plus-Minus Sign",
+      "name_ja": "プラスマイナス記号",
+      "unicode": "U+00B1",
+      "category": "mathematical"
+    },
+    {
+      "id": "112",
+      "symbol": "∓",
+      "name": "负正号",
+      "name_en": "Minus-Plus Sign",
+      "name_ja": "マイナスプラス記号",
+      "unicode": "U+2213",
+      "category": "mathematical"
+    },
+    {
+      "id": "113",
+      "symbol": "√",
+      "name": "根号",
+      "name_en": "Square Root",
+      "name_ja": "平方根",
+      "unicode": "U+221A",
+      "category": "mathematical"
+    },
+    {
+      "id": "114",
+      "symbol": "∛",
+      "name": "立方根",
+      "name_en": "Cube Root",
+      "name_ja": "立方根",
+      "unicode": "U+221B",
+      "category": "mathematical"
+    },
+    {
+      "id": "115",
+      "symbol": "∜",
+      "name": "四次方根",
+      "name_en": "Fourth Root",
+      "name_ja": "四次方根",
+      "unicode": "U+221C",
+      "category": "mathematical"
+    },
+    {
+      "id": "116",
+      "symbol": "∝",
+      "name": "正比于",
+      "name_en": "Proportional To",
+      "name_ja": "比例",
+      "unicode": "U+221D",
+      "category": "mathematical"
+    },
+    {
+      "id": "117",
+      "symbol": "∠",
+      "name": "角度",
+      "name_en": "Angle",
+      "name_ja": "角度",
+      "unicode": "U+2220",
+      "category": "mathematical"
+    },
+    {
+      "id": "118",
+      "symbol": "∥",
+      "name": "平行",
+      "name_en": "Parallel To",
+      "name_ja": "平行",
+      "unicode": "U+2225",
+      "category": "mathematical"
+    },
+    {
+      "id": "119",
+      "symbol": "∦",
+      "name": "不平行",
+      "name_en": "Not Parallel To",
+      "name_ja": "平行でない",
+      "unicode": "U+2226",
+      "category": "mathematical"
+    },
+    {
+      "id": "120",
+      "symbol": "∧",
+      "name": "逻辑与",
+      "name_en": "Logical And",
+      "name_ja": "論理積",
+      "unicode": "U+2227",
+      "category": "mathematical"
+    },
+    {
+      "id": "136",
+      "symbol": "Α",
+      "name": "Alpha大写",
+      "name_en": "Alpha (uppercase)",
+      "name_ja": "アルファ大文字",
+      "unicode": "U+0391",
+      "category": "mathematical"
+    },
+    {
+      "id": "137",
+      "symbol": "Β",
+      "name": "Beta大写",
+      "name_en": "Beta (uppercase)",
+      "name_ja": "ベータ大文字",
+      "unicode": "U+0392",
+      "category": "mathematical"
+    },
+    {
+      "id": "138",
+      "symbol": "Γ",
+      "name": "Gamma大写",
+      "name_en": "Gamma (uppercase)",
+      "name_ja": "ガンマ大文字",
+      "unicode": "U+0393",
+      "category": "mathematical"
+    },
+    {
+      "id": "139",
+      "symbol": "Δ",
+      "name": "Delta大写",
+      "name_en": "Delta (uppercase)",
+      "name_ja": "デルタ大文字",
+      "unicode": "U+0394",
+      "category": "mathematical"
+    },
+    {
+      "id": "140",
+      "symbol": "Ε",
+      "name": "Epsilon大写",
+      "name_en": "Epsilon (uppercase)",
+      "name_ja": "イプシロン大文字",
+      "unicode": "U+0395",
+      "category": "mathematical"
+    },
+    {
+      "id": "141",
+      "symbol": "Ζ",
+      "name": "Zeta大写",
+      "name_en": "Zeta (uppercase)",
+      "name_ja": "ゼータ大文字",
+      "unicode": "U+0396",
+      "category": "mathematical"
+    },
+    {
+      "id": "142",
+      "symbol": "Η",
+      "name": "Eta大写",
+      "name_en": "Eta (uppercase)",
+      "name_ja": "イータ大文字",
+      "unicode": "U+0397",
+      "category": "mathematical"
+    },
+    {
+      "id": "143",
+      "symbol": "Θ",
+      "name": "Theta大写",
+      "name_en": "Theta (uppercase)",
+      "name_ja": "シータ大文字",
+      "unicode": "U+0398",
+      "category": "mathematical"
+    },
+    {
+      "id": "144",
+      "symbol": "Ι",
+      "name": "Iota大写",
+      "name_en": "Iota (uppercase)",
+      "name_ja": "イオタ大文字",
+      "unicode": "U+0399",
+      "category": "mathematical"
+    },
+    {
+      "id": "145",
+      "symbol": "Κ",
+      "name": "Kappa大写",
+      "name_en": "Kappa (uppercase)",
+      "name_ja": "カッパ大文字",
+      "unicode": "U+039A",
+      "category": "mathematical"
+    },
+    {
+      "id": "146",
+      "symbol": "Λ",
+      "name": "Lambda大写",
+      "name_en": "Lambda (uppercase)",
+      "name_ja": "ラムダ大文字",
+      "unicode": "U+039B",
+      "category": "mathematical"
+    },
+    {
+      "id": "147",
+      "symbol": "Μ",
+      "name": "Mu大写",
+      "name_en": "Mu (uppercase)",
+      "name_ja": "ミュー大文字",
+      "unicode": "U+039C",
+      "category": "mathematical"
+    },
+    {
+      "id": "148",
+      "symbol": "Ν",
+      "name": "Nu大写",
+      "name_en": "Nu (uppercase)",
+      "name_ja": "ニュー大文字",
+      "unicode": "U+039D",
+      "category": "mathematical"
+    },
+    {
+      "id": "149",
+      "symbol": "Ξ",
+      "name": "Xi大写",
+      "name_en": "Xi (uppercase)",
+      "name_ja": "クサイ大文字",
+      "unicode": "U+039E",
+      "category": "mathematical"
+    },
+    {
+      "id": "150",
+      "symbol": "Ο",
+      "name": "Omicron大写",
+      "name_en": "Omicron (uppercase)",
+      "name_ja": "オミクロン大文字",
+      "unicode": "U+039F",
+      "category": "mathematical"
+    },
+    {
+      "id": "151",
+      "symbol": "Π",
+      "name": "Pi大写(Π)",
+      "name_en": "Pi (uppercase)",
+      "name_ja": "パイ大文字",
+      "unicode": "U+03A0",
+      "category": "mathematical"
+    },
+    {
+      "id": "152",
+      "symbol": "Ρ",
+      "name": "Rho大写",
+      "name_en": "Rho (uppercase)",
+      "name_ja": "ロー大文字",
+      "unicode": "U+03A1",
+      "category": "mathematical"
+    },
+    {
+      "id": "153",
+      "symbol": "Σ",
+      "name": "Sigma大写",
+      "name_en": "Sigma (uppercase)",
+      "name_ja": "シグマ大文字",
+      "unicode": "U+03A3",
+      "category": "mathematical"
+    },
+    {
+      "id": "154",
+      "symbol": "Τ",
+      "name": "Tau大写",
+      "name_en": "Tau (uppercase)",
+      "name_ja": "タウ大文字",
+      "unicode": "U+03A4",
+      "category": "mathematical"
+    },
+    {
+      "id": "155",
+      "symbol": "Υ",
+      "name": "Upsilon大写",
+      "name_en": "Upsilon (uppercase)",
+      "name_ja": "ウプシロン大文字",
+      "unicode": "U+03A5",
+      "category": "mathematical"
+    },
+    {
+      "id": "156",
+      "symbol": "Φ",
+      "name": "Phi大写",
+      "name_en": "Phi (uppercase)",
+      "name_ja": "ファイ大文字",
+      "unicode": "U+03A6",
+      "category": "mathematical"
+    },
+    {
+      "id": "157",
+      "symbol": "Χ",
+      "name": "Chi大写",
+      "name_en": "Chi (uppercase)",
+      "name_ja": "カイ大文字",
+      "unicode": "U+03A7",
+      "category": "mathematical"
+    },
+    {
+      "id": "158",
+      "symbol": "Ψ",
+      "name": "Psi大写",
+      "name_en": "Psi (uppercase)",
+      "name_ja": "プサイ大文字",
+      "unicode": "U+03A8",
+      "category": "mathematical"
+    },
+    {
+      "id": "159",
+      "symbol": "Ω",
+      "name": "Omega大写",
+      "name_en": "Omega (uppercase)",
+      "name_ja": "オメガ大文字",
+      "unicode": "U+03A9",
+      "category": "mathematical"
+    },
+    {
+      "id": "160",
+      "symbol": "α",
+      "name": "alpha小写",
+      "name_en": "Alpha (lowercase)",
+      "name_ja": "アルファ小文字",
+      "unicode": "U+03B1",
+      "category": "mathematical"
+    },
+    {
+      "id": "161",
+      "symbol": "β",
+      "name": "beta小写",
+      "name_en": "Beta (lowercase)",
+      "name_ja": "ベータ小文字",
+      "unicode": "U+03B2",
+      "category": "mathematical"
+    },
+    {
+      "id": "162",
+      "symbol": "γ",
+      "name": "gamma小写",
+      "name_en": "Gamma (lowercase)",
+      "name_ja": "ガンマ小文字",
+      "unicode": "U+03B3",
+      "category": "mathematical"
+    },
+    {
+      "id": "163",
+      "symbol": "δ",
+      "name": "delta小写",
+      "name_en": "Delta (lowercase)",
+      "name_ja": "デルタ小文字",
+      "unicode": "U+03B4",
+      "category": "mathematical"
+    },
+    {
+      "id": "164",
+      "symbol": "ε",
+      "name": "epsilon小写",
+      "name_en": "Epsilon (lowercase)",
+      "name_ja": "イプシロン小文字",
+      "unicode": "U+03B5",
+      "category": "mathematical"
+    },
+    {
+      "id": "165",
+      "symbol": "ζ",
+      "name": "zeta小写",
+      "name_en": "Zeta (lowercase)",
+      "name_ja": "ゼータ小文字",
+      "unicode": "U+03B6",
+      "category": "mathematical"
+    },
+    {
+      "id": "166",
+      "symbol": "η",
+      "name": "eta小写",
+      "name_en": "Eta (lowercase)",
+      "name_ja": "イータ小文字",
+      "unicode": "U+03B7",
+      "category": "mathematical"
+    },
+    {
+      "id": "167",
+      "symbol": "θ",
+      "name": "theta小写",
+      "name_en": "Theta (lowercase)",
+      "name_ja": "シータ小文字",
+      "unicode": "U+03B8",
+      "category": "mathematical"
+    },
+    {
+      "id": "168",
+      "symbol": "ι",
+      "name": "iota小写",
+      "name_en": "Iota (lowercase)",
+      "name_ja": "イオタ小文字",
+      "unicode": "U+03B9",
+      "category": "mathematical"
+    },
+    {
+      "id": "169",
+      "symbol": "κ",
+      "name": "kappa小写",
+      "name_en": "Kappa (lowercase)",
+      "name_ja": "カッパ小文字",
+      "unicode": "U+03BA",
+      "category": "mathematical"
+    },
+    {
+      "id": "170",
+      "symbol": "λ",
+      "name": "lambda小写",
+      "name_en": "Lambda (lowercase)",
+      "name_ja": "ラムダ小文字",
+      "unicode": "U+03BB",
+      "category": "mathematical"
+    },
+    {
+      "id": "171",
+      "symbol": "μ",
+      "name": "mu小写",
+      "name_en": "Mu (lowercase)",
+      "name_ja": "ミュー小文字",
+      "unicode": "U+03BC",
+      "category": "mathematical"
+    },
+    {
+      "id": "172",
+      "symbol": "ν",
+      "name": "nu小写",
+      "name_en": "Nu (lowercase)",
+      "name_ja": "ニュー小文字",
+      "unicode": "U+03BD",
+      "category": "mathematical"
+    },
+    {
+      "id": "173",
+      "symbol": "ξ",
+      "name": "xi小写",
+      "name_en": "Xi (lowercase)",
+      "name_ja": "クサイ小文字",
+      "unicode": "U+03BE",
+      "category": "mathematical"
+    },
+    {
+      "id": "174",
+      "symbol": "ο",
+      "name": "omicron小写",
+      "name_en": "Omicron (lowercase)",
+      "name_ja": "オミクロン小文字",
+      "unicode": "U+03BF",
+      "category": "mathematical"
+    },
+    {
+      "id": "175",
+      "symbol": "π",
+      "name": "pi小写(π)",
+      "name_en": "Pi (lowercase)",
+      "name_ja": "パイ小文字",
+      "unicode": "U+03C0",
+      "category": "mathematical"
+    },
+    {
+      "id": "176",
+      "symbol": "ρ",
+      "name": "rho小写",
+      "name_en": "Rho (lowercase)",
+      "name_ja": "ロー小文字",
+      "unicode": "U+03C1",
+      "category": "mathematical"
+    },
+    {
+      "id": "177",
+      "symbol": "ς",
+      "name": "sigma终端",
+      "name_en": "Sigma terminal",
+      "name_ja": "シグマ終端",
+      "unicode": "U+03C2",
+      "category": "mathematical"
+    },
+    {
+      "id": "178",
+      "symbol": "σ",
+      "name": "sigma小写",
+      "name_en": "Sigma (lowercase)",
+      "name_ja": "シグマ小文字",
+      "unicode": "U+03C3",
+      "category": "mathematical"
+    },
+    {
+      "id": "179",
+      "symbol": "τ",
+      "name": "tau小写",
+      "name_en": "Tau (lowercase)",
+      "name_ja": "タウ小文字",
+      "unicode": "U+03C4",
+      "category": "mathematical"
+    },
+    {
+      "id": "180",
+      "symbol": "υ",
+      "name": "upsilon小写",
+      "name_en": "Upsilon (lowercase)",
+      "name_ja": "ウプシロン小文字",
+      "unicode": "U+03C5",
+      "category": "mathematical"
+    },
+    {
+      "id": "181",
+      "symbol": "φ",
+      "name": "phi小写",
+      "name_en": "Phi (lowercase)",
+      "name_ja": "ファイ小文字",
+      "unicode": "U+03C6",
+      "category": "mathematical"
+    },
+    {
+      "id": "182",
+      "symbol": "χ",
+      "name": "chi小写",
+      "name_en": "Chi (lowercase)",
+      "name_ja": "カイ小文字",
+      "unicode": "U+03C7",
+      "category": "mathematical"
+    },
+    {
+      "id": "183",
+      "symbol": "ψ",
+      "name": "psi小写",
+      "name_en": "Psi (lowercase)",
+      "name_ja": "プサイ小文字",
+      "unicode": "U+03C8",
+      "category": "mathematical"
+    },
+    {
+      "id": "184",
+      "symbol": "ω",
+      "name": "omega小写",
+      "name_en": "Omega (lowercase)",
+      "name_ja": "オメガ小文字",
+      "unicode": "U+03C9",
+      "category": "mathematical"
+    },
+    {
+      "id": "185",
+      "symbol": "±",
+      "name": "正负号",
+      "name_en": "Plus-minus sign",
+      "name_ja": "プラスマイナス記号",
+      "unicode": "U+00B1",
+      "category": "mathematical"
+    },
+    {
+      "id": "186",
+      "symbol": "∓",
+      "name": "负正号",
+      "name_en": "Minus-plus sign",
+      "name_ja": "マイナスプラス記号",
+      "unicode": "U+2213",
+      "category": "mathematical"
+    },
+    {
+      "id": "187",
+      "symbol": "√",
+      "name": "根号",
+      "name_en": "Square root",
+      "name_ja": "平方根",
+      "unicode": "U+221A",
+      "category": "mathematical"
+    },
+    {
+      "id": "188",
+      "symbol": "∛",
+      "name": "立方根",
+      "name_en": "Cube root",
+      "name_ja": "立方根",
+      "unicode": "U+221B",
+      "category": "mathematical"
+    },
+    {
+      "id": "189",
+      "symbol": "∜",
+      "name": "四次方根",
+      "name_en": "Fourth root",
+      "name_ja": "四次方根",
+      "unicode": "U+221C",
+      "category": "mathematical"
+    },
+    {
+      "id": "190",
+      "symbol": "∝",
+      "name": "正比于",
+      "name_en": "Proportional to",
+      "name_ja": "比例",
+      "unicode": "U+221D",
+      "category": "mathematical"
+    },
+    {
+      "id": "191",
+      "symbol": "∠",
+      "name": "角度",
+      "name_en": "Angle",
+      "name_ja": "角度",
+      "unicode": "U+2220",
+      "category": "mathematical"
+    },
+    {
+      "id": "192",
+      "symbol": "∥",
+      "name": "平行",
+      "name_en": "Parallel",
+      "name_ja": "平行",
+      "unicode": "U+2225",
+      "category": "mathematical"
+    },
+    {
+      "id": "193",
+      "symbol": "∦",
+      "name": "不平行",
+      "name_en": "Not parallel",
+      "name_ja": "平行でない",
+      "unicode": "U+2226",
+      "category": "mathematical"
+    },
+    {
+      "id": "194",
+      "symbol": "∧",
+      "name": "逻辑与",
+      "name_en": "Logical AND",
+      "name_ja": "論理積",
+      "unicode": "U+2227",
+      "category": "mathematical"
+    },
+    {
+      "id": "195",
+      "symbol": "∨",
+      "name": "逻辑或",
+      "name_en": "Logical Or",
+      "name_ja": "論理和",
+      "unicode": "U+2228",
+      "category": "mathematical"
+    },
+    {
+      "id": "196",
+      "symbol": "¬",
+      "name": "逻辑非",
+      "name_en": "Logical Not",
+      "name_ja": "否定",
+      "unicode": "U+00AC",
+      "category": "mathematical"
+    },
+    {
+      "id": "197",
+      "symbol": "∩",
+      "name": "交集",
+      "name_en": "Intersection",
+      "name_ja": "積集合",
+      "unicode": "U+2229",
+      "category": "mathematical"
+    },
+    {
+      "id": "198",
+      "symbol": "∪",
+      "name": "并集",
+      "name_en": "Union",
+      "name_ja": "和集合",
+      "unicode": "U+222A",
+      "category": "mathematical"
+    },
+    {
+      "id": "199",
+      "symbol": "∈",
+      "name": "属于",
+      "name_en": "Element Of",
+      "name_ja": "要素",
+      "unicode": "U+2208",
+      "category": "mathematical"
+    },
+    {
+      "id": "200",
+      "symbol": "∉",
+      "name": "不属于",
+      "name_en": "Not An Element Of",
+      "name_ja": "非要素",
+      "unicode": "U+2209",
+      "category": "mathematical"
+    },
+    {
+      "id": "201",
+      "symbol": "∀",
+      "name": "全称量词",
+      "name_en": "For All",
+      "name_ja": "全称記号",
+      "unicode": "U+2200",
+      "category": "mathematical"
+    },
+    {
+      "id": "202",
+      "symbol": "∃",
+      "name": "存在量词",
+      "name_en": "There Exists",
+      "name_ja": "存在記号",
+      "unicode": "U+2203",
+      "category": "mathematical"
+    },
+    {
+      "id": "203",
+      "symbol": "∄",
+      "name": "不存在",
+      "name_en": "There Does Not Exist",
+      "name_ja": "非存在記号",
+      "unicode": "U+2204",
+      "category": "mathematical"
+    },
+    {
+      "id": "204",
+      "symbol": "∅",
+      "name": "空集",
+      "name_en": "Empty Set",
+      "name_ja": "空集合",
+      "unicode": "U+2205",
+      "category": "mathematical"
+    },
+    {
+      "id": "205",
+      "symbol": "∆",
+      "name": "增量/三角形",
+      "name_en": "Increment/Triangle",
+      "name_ja": "増分/三角形",
+      "unicode": "U+2206",
+      "category": "mathematical"
+    },
+    {
+      "id": "206",
+      "symbol": "∇",
+      "name": "梯度算子",
+      "name_en": "Nabla",
+      "name_ja": "ナブラ",
+      "unicode": "U+2207",
+      "category": "mathematical"
+    },
+    {
+      "id": "207",
+      "symbol": "∂",
+      "name": "偏微分",
+      "name_en": "Partial Differential",
+      "name_ja": "偏微分",
+      "unicode": "U+2202",
+      "category": "mathematical"
+    },
+    {
+      "id": "208",
+      "symbol": "∴",
+      "name": "所以",
+      "name_en": "Therefore",
+      "name_ja": "ゆえに",
+      "unicode": "U+2234",
+      "category": "mathematical"
+    },
+    {
+      "id": "209",
+      "symbol": "∵",
+      "name": "因为",
+      "name_en": "Because",
+      "name_ja": "因为",
+      "unicode": "U+2235",
+      "category": "mathematical"
+    },
+    {
+      "id": "210",
+      "symbol": "∎",
+      "name": "证毕",
+      "name_en": "End Of Proof",
+      "name_ja": "証明終了",
+      "unicode": "U+220E",
+      "category": "mathematical"
+    },
+    {
+      "id": "211",
+      "symbol": "∞",
+      "name": "无穷大",
+      "name_en": "Infinity",
+      "name_ja": "無限大",
+      "unicode": "U+221E",
+      "category": "mathematical"
+    },
+    {
+      "id": "212",
+      "symbol": "∏",
+      "name": "连乘",
+      "name_en": "N-Ary Product",
+      "name_ja": "直積",
+      "unicode": "U+220F",
+      "category": "mathematical"
+    },
+    {
+      "id": "213",
+      "symbol": "∑",
+      "name": "求和",
+      "name_en": "N-Ary Summation",
+      "name_ja": "総和",
+      "unicode": "U+2211",
+      "category": "mathematical"
+    },
+    {
+      "id": "214",
+      "symbol": "∫",
+      "name": "积分",
+      "name_en": "Integral",
+      "name_ja": "積分",
+      "unicode": "U+222B",
+      "category": "mathematical"
+    },
+    {
+      "id": "215",
+      "symbol": "∬",
+      "name": "二重积分",
+      "name_en": "Double Integral",
+      "name_ja": "二重積分",
+      "unicode": "U+222C",
+      "category": "mathematical"
+    },
+    {
+      "id": "216",
+      "symbol": "∭",
+      "name": "三重积分",
+      "name_en": "Triple Integral",
+      "name_ja": "三重積分",
+      "unicode": "U+222D",
+      "category": "mathematical"
+    },
+    {
+      "id": "217",
+      "symbol": "∮",
+      "name": "环路积分",
+      "name_en": "Contour Integral",
+      "name_ja": "周回積分",
+      "unicode": "U+222E",
+      "category": "mathematical"
+    },
+    {
+      "id": "218",
+      "symbol": "≤",
+      "name": "小于等于",
+      "name_en": "Less Than Or Equal To",
+      "name_ja": "以下",
+      "unicode": "U+2264",
+      "category": "mathematical"
+    },
+    {
+      "id": "219",
+      "symbol": "≥",
+      "name": "大于等于",
+      "name_en": "Greater Than Or Equal To",
+      "name_ja": "以上",
+      "unicode": "U+2265",
+      "category": "mathematical"
+    },
+    {
+      "id": "220",
+      "symbol": "≪",
+      "name": "远小于",
+      "name_en": "Much Less Than",
+      "name_ja": "非常に小",
+      "unicode": "U+226A",
+      "category": "mathematical"
+    },
+    {
+      "id": "221",
+      "symbol": "≫",
+      "name": "远大于",
+      "name_en": "Much Greater Than",
+      "name_ja": "非常に大",
+      "unicode": "U+226B",
+      "category": "mathematical"
+    },
+    {
+      "id": "222",
+      "symbol": "≡",
+      "name": "恒等于",
+      "name_en": "Identical To",
+      "name_ja": "恒等",
+      "unicode": "U+2261",
+      "category": "mathematical"
+    },
+    {
+      "id": "223",
+      "symbol": "≢",
+      "name": "不恒等",
+      "name_en": "Not Identical To",
+      "name_ja": "非恒等",
+      "unicode": "U+2262",
+      "category": "mathematical"
+    },
+    {
+      "id": "224",
+      "symbol": "≅",
+      "name": "全等",
+      "name_en": "Approximately Equal To",
+      "name_ja": "近似",
+      "unicode": "U+2245",
+      "category": "mathematical"
+    },
+    {
+      "id": "225",
+      "symbol": "≈",
+      "name": "约等于",
+      "name_en": "Almost Equal To",
+      "name_ja": "ほぼ等しい",
+      "unicode": "U+2248",
+      "category": "mathematical"
+    },
+    {
+      "id": "226",
+      "symbol": "∼",
+      "name": "相似",
+      "name_en": "Tilde Operator",
+      "name_ja": "チルダ演算子",
+      "unicode": "U+223C",
+      "category": "mathematical"
+    },
+    {
+      "id": "227",
+      "symbol": "∽",
+      "name": "反比",
+      "name_en": "Reversed Tilde",
+      "name_ja": "逆チルダ",
+      "unicode": "U+223D",
+      "category": "mathematical"
+    },
+    {
+      "id": "228",
+      "symbol": "∶",
+      "name": "比例",
+      "name_en": "Ratio",
+      "name_ja": "比",
+      "unicode": "U+2236",
+      "category": "mathematical"
+    },
+    {
+      "id": "229",
+      "symbol": "∷",
+      "name": "成比例",
+      "name_en": "Proportion",
+      "name_ja": "比例式",
+      "unicode": "U+2237",
+      "category": "mathematical"
+    }
+  ],
+  "count": 114
+}

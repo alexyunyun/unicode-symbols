@@ -1,0 +1,104 @@
+{
+  "category": {
+    "id": "combination",
+    "name": "复选框和方框",
+    "name_en": "Checkboxes & Boxes",
+    "name_ja": "チェックボックスとボックス",
+    "description": "复选框和方框符号",
+    "description_en": "Checkbox and box symbols",
+    "description_ja": "チェックボックスとボックス記号"
+  },
+  "symbols": [
+    {
+      "id": "91",
+      "symbol": "☐",
+      "name": "空复选框",
+      "name_en": "Ballot Box",
+      "name_ja": "投票箱",
+      "unicode": "U+2610",
+      "category": "combination"
+    },
+    {
+      "id": "92",
+      "symbol": "☑️",
+      "name": "选中复选框",
+      "name_en": "Ballot Box with Check",
+      "name_ja": "チェック付き投票箱",
+      "unicode": "U+2611",
+      "category": "combination"
+    },
+    {
+      "id": "93",
+      "symbol": "☒",
+      "name": "叉号复选框",
+      "name_en": "Ballot Box with X",
+      "name_ja": "X付き投票箱",
+      "unicode": "U+2612",
+      "category": "combination"
+    },
+    {
+      "id": "94",
+      "symbol": "▢",
+      "name": "白色方框",
+      "name_en": "White Square",
+      "name_ja": "白い四角",
+      "unicode": "U+25A2",
+      "category": "combination"
+    },
+    {
+      "id": "95",
+      "symbol": "▣",
+      "name": "带点方框",
+      "name_en": "White Square Containing Black Small Square",
+      "name_ja": "黒い小さな四角を含む白い四角",
+      "unicode": "U+25A3",
+      "category": "combination"
+    },
+    {
+      "id": "96",
+      "symbol": "▤",
+      "name": "横线方框",
+      "name_en": "Square with Horizontal Fill",
+      "name_ja": "水平線で塗りつぶされた四角",
+      "unicode": "U+25A4",
+      "category": "combination"
+    },
+    {
+      "id": "97",
+      "symbol": "▥",
+      "name": "竖线方框",
+      "name_en": "Square with Vertical Fill",
+      "name_ja": "垂直線で塗りつぶされた四角",
+      "unicode": "U+25A5",
+      "category": "combination"
+    },
+    {
+      "id": "98",
+      "symbol": "▦",
+      "name": "格子方框",
+      "name_en": "Square with Orthogonal Crosshatch Fill",
+      "name_ja": "格子で塗りつぶされた四角",
+      "unicode": "U+25A6",
+      "category": "combination"
+    },
+    {
+      "id": "99",
+      "symbol": "▧",
+      "name": "对角线方框",
+      "name_en": "Square with Upper Left to Lower Right Fill",
+      "name_ja": "左上から右下への塗りつぶし四角",
+      "unicode": "U+25A7",
+      "category": "combination"
+    },
+    {
+      "id": "100",
+      "symbol": "▨",
+      "name": "反对角线方框",
+      "name_en": "Square with Lower Left to Upper Right Fill",
+      "name_ja": "左下から右上への塗りつぶし四角",
+      "unicode": "U+25A8",
+      "category": "combination"
+    }
+  ],
+  "count": 10
+}

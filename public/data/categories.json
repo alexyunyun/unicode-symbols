@@ -1,0 +1,200 @@
+[
+  {
+    "id": "mathematical",
+    "name": "数学符号",
+    "name_en": "Mathematical",
+    "name_ja": "数学記号",
+    "description": "数学运算和逻辑符号",
+    "description_en": "Mathematical and logical symbols",
+    "description_ja": "数学と論理記号"
+  },
+  {
+    "id": "currency",
+    "name": "货币符号",
+    "name_en": "Currency",
+    "name_ja": "通貨記号",
+    "description": "各国货币符号",
+    "description_en": "Currency symbols from different countries",
+    "description_ja": "各国の通貨記号"
+  },
+  {
+    "id": "arrows",
+    "name": "箭头符号",
+    "name_en": "Arrows",
+    "name_ja": "矢印記号",
+    "description": "方向指示符号",
+    "description_en": "Directional indicators",
+    "description_ja": "方向指示記号"
+  },
+  {
+    "id": "punctuation",
+    "name": "标点符号",
+    "name_en": "Punctuation",
+    "name_ja": "句読点",
+    "description": "标点和语法符号",
+    "description_en": "Punctuation and grammatical symbols",
+    "description_ja": "句読点と文法記号"
+  },
+  {
+    "id": "shapes",
+    "name": "几何图形",
+    "name_en": "Shapes",
+    "name_ja": "幾何学図形",
+    "description": "基本几何形状",
+    "description_en": "Basic geometric shapes",
+    "description_ja": "基本的な幾何学図形"
+  },
+  {
+    "id": "miscellaneous",
+    "name": "其他符号",
+    "name_en": "Miscellaneous",
+    "name_ja": "その他の記号",
+    "description": "其他常用符号",
+    "description_en": "Other commonly used symbols",
+    "description_ja": "その他の一般的な記号"
+  },
+  {
+    "id": "emoticons",
+    "name": "表情符号",
+    "name_en": "Emoticons",
+    "name_ja": "絵文字",
+    "description": "各种表情符号",
+    "description_en": "Various emoticons",
+    "description_ja": "さまざまな絵文字"
+  },
+  {
+    "id": "technical",
+    "name": "技术符号",
+    "name_en": "Technical",
+    "name_ja": "技術記号",
+    "description": "技术和工程符号",
+    "description_en": "Technical and engineering symbols",
+    "description_ja": "技術と工学記号"
+  },
+  {
+    "id": "weather",
+    "name": "天气符号",
+    "name_en": "Weather",
+    "name_ja": "天気記号",
+    "description": "天气相关符号",
+    "description_en": "Weather-related symbols",
+    "description_ja": "天気関連記号"
+  },
+  {
+    "id": "office",
+    "name": "办公符号",
+    "name_en": "Office",
+    "name_ja": "オフィス記号",
+    "description": "办公常用符号",
+    "description_en": "Common office symbols",
+    "description_ja": "一般的なオフィス記号"
+  },
+  {
+    "id": "combination",
+    "name": "复选框和方框",
+    "name_en": "Checkboxes & Boxes",
+    "name_ja": "チェックボックスとボックス",
+    "description": "复选框和方框符号",
+    "description_en": "Checkbox and box symbols",
+    "description_ja": "チェックボックスとボックス記号"
+  },
+  {
+    "id": "regional",
+    "name": "各地区常用符号",
+    "name_en": "Regional",
+    "name_ja": "地域別記号",
+    "description": "不同地区的特色符号",
+    "description_en": "Symbols from different regions",
+    "description_ja": "異なる地域の特色記号"
+  },
+  {
+    "id": "legal",
+    "name": "法律商业符号",
+    "name_en": "Legal & Business",
+    "name_ja": "法律・ビジネス記号",
+    "description": "法律和商业相关符号",
+    "description_en": "Legal and business related symbols",
+    "description_ja": "法律とビジネス関連記号"
+  },
+  {
+    "id": "religious",
+    "name": "宗教文化符号",
+    "name_en": "Religious & Cultural",
+    "name_ja": "宗教・文化記号",
+    "description": "宗教和文化符号",
+    "description_en": "Religious and cultural symbols",
+    "description_ja": "宗教と文化記号"
+  },
+  {
+    "id": "zodiac",
+    "name": "星座占星符号",
+    "name_en": "Zodiac & Astrology",
+    "name_ja": "星座・占星術記号",
+    "description": "星座和占星术符号",
+    "description_en": "Zodiac and astrology symbols",
+    "description_ja": "星座と占星術記号"
+  },
+  {
+    "id": "gaming",
+    "name": "游戏娱乐符号",
+    "name_en": "Gaming & Entertainment",
+    "name_ja": "ゲーム・エンターテイメント",
+    "description": "游戏和娱乐相关符号",
+    "description_en": "Gaming and entertainment related symbols",
+    "description_ja": "ゲームとエンターテイメント関連記号"
+  },
+  {
+    "id": "transport",
+    "name": "交通建筑符号",
+    "name_en": "Transport & Architecture",
+    "name_ja": "交通・建築記号",
+    "description": "交通工具和建筑符号",
+    "description_en": "Transportation and architectural symbols",
+    "description_ja": "交通機関と建築記号"
+  },
+  {
+    "id": "nature",
+    "name": "自然环境符号",
+    "name_en": "Nature & Environment",
+    "name_ja": "自然・環境記号",
+    "description": "自然和环境相关符号",
+    "description_en": "Nature and environment related symbols",
+    "description_ja": "自然と環境関連記号"
+  },
+  {
+    "id": "food",
+    "name": "食物生活符号",
+    "name_en": "Food & Lifestyle",
+    "name_ja": "食べ物・ライフスタイル",
+    "description": "食物和生活用品符号",
+    "description_en": "Food and lifestyle symbols",
+    "description_ja": "食べ物とライフスタイル記号"
+  },
+  {
+    "id": "sports",
+    "name": "运动健康符号",
+    "name_en": "Sports & Health",
+    "name_ja": "スポーツ・健康記号",
+    "description": "运动和健康相关符号",
+    "description_en": "Sports and health related symbols",
+    "description_ja": "スポーツと健康関連記号"
+  },
+  {
+    "id": "music",
+    "name": "音乐艺术符号",
+    "name_en": "Music & Arts",
+    "name_ja": "音楽・芸術記号",
+    "description": "音乐和艺术符号",
+    "description_en": "Music and arts symbols",
+    "description_ja": "音楽と芸術記号"
+  },
+  {
+    "id": "science",
+    "name": "科学工程符号",
+    "name_en": "Science & Engineering",
+    "name_ja": "科学・工学記号",
+    "description": "科学和工程专业符号",
+    "description_en": "Science and engineering professional symbols",
+    "description_ja": "科学と工学専門記号"
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "category": {
+    "id": "weather",
+    "name": "天气符号",
+    "name_en": "Weather",
+    "name_ja": "天気記号",
+    "description": "天气相关符号",
+    "description_en": "Weather-related symbols",
+    "description_ja": "天気関連記号"
+  },
+  "symbols": [
+    {
+      "id": "69",
+      "symbol": "☀️",
+      "name": "太阳",
+      "name_en": "Sun",
+      "name_ja": "太陽",
+      "unicode": "U+2600",
+      "category": "weather"
+    },
+    {
+      "id": "70",
+      "symbol": "☁️",
+      "name": "云",
+      "name_en": "Cloud",
+      "name_ja": "雲",
+      "unicode": "U+2601",
+      "category": "weather"
+    },
+    {
+      "id": "71",
+      "symbol": "⛅",
+      "name": "多云",
+      "name_en": "Sun Behind Cloud",
+      "name_ja": "雲の後の太陽",
+      "unicode": "U+26C5",
+      "category": "weather"
+    },
+    {
+      "id": "72",
+      "symbol": "🌧️",
+      "name": "雨",
+      "name_en": "Rain",
+      "name_ja": "雨",
+      "unicode": "U+1F327",
+      "category": "weather"
+    },
+    {
+      "id": "73",
+      "symbol": "⛈️",
+      "name": "雷暴",
+      "name_en": "Thunderstorm",
+      "name_ja": "雷雨",
+      "unicode": "U+26C8",
+      "category": "weather"
+    },
+    {
+      "id": "74",
+      "symbol": "❄️",
+      "name": "雪花",
+      "name_en": "Snowflake",
+      "name_ja": "雪片",
+      "unicode": "U+2744",
+      "category": "weather"
+    },
+    {
+      "id": "75",
+      "symbol": "🌪️",
+      "name": "龙卷风",
+      "name_en": "Tornado",
+      "name_ja": "竜巻",
+      "unicode": "U+1F32A",
+      "category": "weather"
+    }
+  ],
+  "count": 7
+}

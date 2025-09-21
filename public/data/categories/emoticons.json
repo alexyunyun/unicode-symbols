@@ -1,0 +1,833 @@
+{
+  "category": {
+    "id": "emoticons",
+    "name": "表情符号",
+    "name_en": "Emoticons",
+    "name_ja": "絵文字",
+    "description": "各种表情符号",
+    "description_en": "Various emoticons",
+    "description_ja": "さまざまな絵文字"
+  },
+  "symbols": [
+    {
+      "id": "1",
+      "symbol": "😀",
+      "name": "笑脸",
+      "name_en": "Grinning Face",
+      "name_ja": "スマイル",
+      "unicode": "U+1F600",
+      "category": "emoticons"
+    },
+    {
+      "id": "2",
+      "symbol": "😃",
+      "name": "开心",
+      "name_en": "Happy",
+      "name_ja": "ハッピー",
+      "unicode": "U+1F603",
+      "category": "emoticons"
+    },
+    {
+      "id": "3",
+      "symbol": "😄",
+      "name": "大笑",
+      "name_en": "Big Laugh",
+      "name_ja": "大笑い",
+      "unicode": "U+1F604",
+      "category": "emoticons"
+    },
+    {
+      "id": "4",
+      "symbol": "😁",
+      "name": "咧嘴笑",
+      "name_en": "Beaming Smile",
+      "name_ja": "にっこり笑う",
+      "unicode": "U+1F601",
+      "category": "emoticons"
+    },
+    {
+      "id": "5",
+      "symbol": "😊",
+      "name": "微笑",
+      "name_en": "Smiling",
+      "name_ja": "微笑",
+      "unicode": "U+1F60A",
+      "category": "emoticons"
+    },
+    {
+      "id": "6",
+      "symbol": "😍",
+      "name": "心形眼",
+      "name_en": "Heart Eyes",
+      "name_ja": "ハートの目",
+      "unicode": "U+1F60D",
+      "category": "emoticons"
+    },
+    {
+      "id": "7",
+      "symbol": "😔",
+      "name": "思考",
+      "name_en": "Thinking",
+      "name_ja": "考え中",
+      "unicode": "U+1F914",
+      "category": "emoticons"
+    },
+    {
+      "id": "8",
+      "symbol": "😎",
+      "name": "酷",
+      "name_en": "Cool",
+      "name_ja": "クール",
+      "unicode": "U+1F60E",
+      "category": "emoticons"
+    },
+    {
+      "id": "9",
+      "symbol": "😣",
+      "name": "晕眩",
+      "name_en": "Dizzy",
+      "name_ja": "めまい",
+      "unicode": "U+1F634",
+      "category": "emoticons"
+    },
+    {
+      "id": "10",
+      "symbol": "😢",
+      "name": "哭泣",
+      "name_en": "Crying",
+      "name_ja": "泣く",
+      "unicode": "U+1F622",
+      "category": "emoticons"
+    },
+    {
+      "id": "11",
+      "symbol": "👍",
+      "name": "点赞",
+      "name_en": "Thumbs Up",
+      "name_ja": "いいね",
+      "unicode": "U+1F44D",
+      "category": "emoticons"
+    },
+    {
+      "id": "12",
+      "symbol": "👎",
+      "name": "点踩",
+      "name_en": "Thumbs Down",
+      "name_ja": "よくない",
+      "unicode": "U+1F44E",
+      "category": "emoticons"
+    },
+    {
+      "id": "13",
+      "symbol": "👌",
+      "name": "好的",
+      "name_en": "OK",
+      "name_ja": "OK",
+      "unicode": "U+1F44F",
+      "category": "emoticons"
+    },
+    {
+      "id": "14",
+      "symbol": "👏",
+      "name": "祈祷",
+      "name_en": "Pray",
+      "name_ja": "祈る",
+      "unicode": "U+1F64F",
+      "category": "emoticons"
+    },
+    {
+      "id": "15",
+      "symbol": "❤️",
+      "name": "红心",
+      "name_en": "Red Heart",
+      "name_ja": "赤いハート",
+      "unicode": "U+2764",
+      "category": "emoticons"
+    },
+    {
+      "id": "16",
+      "symbol": "💖",
+      "name": "心跳",
+      "name_en": "Beating Heart",
+      "name_ja": "ドキドキ",
+      "unicode": "U+1F494",
+      "category": "emoticons"
+    },
+    {
+      "id": "17",
+      "symbol": "💯",
+      "name": "一百分",
+      "name_en": "Hundred Points",
+      "name_ja": "100点",
+      "unicode": "U+1F4AF",
+      "category": "emoticons"
+    },
+    {
+      "id": "18",
+      "symbol": "🔥",
+      "name": "火",
+      "name_en": "Fire",
+      "name_ja": "火",
+      "unicode": "U+1F525",
+      "category": "emoticons"
+    },
+    {
+      "id": "19",
+      "symbol": "⭐",
+      "name": "星星",
+      "name_en": "Star",
+      "name_ja": "星",
+      "unicode": "U+2B50",
+      "category": "emoticons"
+    },
+    {
+      "id": "20",
+      "symbol": "🎉",
+      "name": "庆祝",
+      "name_en": "Party Popper",
+      "name_ja": "お祝い",
+      "unicode": "U+1F389",
+      "category": "emoticons"
+    },
+    {
+      "id": "230",
+      "symbol": "😂",
+      "name": "大笑",
+      "name_en": "Face With Tears of Joy",
+      "name_ja": "涙笑い",
+      "unicode": "U+1F602",
+      "category": "emoticons"
+    },
+    {
+      "id": "231",
+      "symbol": "😘",
+      "name": "飞吻",
+      "name_en": "Face Throwing a Kiss",
+      "name_ja": "投げキッス",
+      "unicode": "U+1F618",
+      "category": "emoticons"
+    },
+    {
+      "id": "232",
+      "symbol": "😍",
+      "name": "心型眼",
+      "name_en": "Smiling Face with Heart-Eyes",
+      "name_ja": "ハート目",
+      "unicode": "U+1F60D",
+      "category": "emoticons"
+    },
+    {
+      "id": "233",
+      "symbol": "😎",
+      "name": "太阳镜",
+      "name_en": "Smiling Face with Sunglasses",
+      "name_ja": "サングラス",
+      "unicode": "U+1F60E",
+      "category": "emoticons"
+    },
+    {
+      "id": "234",
+      "symbol": "😏",
+      "name": "坏笑",
+      "name_en": "Smirking Face",
+      "name_ja": "にやり",
+      "unicode": "U+1F60F",
+      "category": "emoticons"
+    },
+    {
+      "id": "235",
+      "symbol": "😒",
+      "name": "无语",
+      "name_en": "Unamused Face",
+      "name_ja": "不満",
+      "unicode": "U+1F612",
+      "category": "emoticons"
+    },
+    {
+      "id": "236",
+      "symbol": "😓",
+      "name": "冷汗",
+      "name_en": "Face with Cold Sweat",
+      "name_ja": "冷や汗",
+      "unicode": "U+1F613",
+      "category": "emoticons"
+    },
+    {
+      "id": "237",
+      "symbol": "😔",
+      "name": "沉思",
+      "name_en": "Pensive Face",
+      "name_ja": "沈思",
+      "unicode": "U+1F614",
+      "category": "emoticons"
+    },
+    {
+      "id": "238",
+      "symbol": "😖",
+      "name": "困惑",
+      "name_en": "Confounded Face",
+      "name_ja": "困惑",
+      "unicode": "U+1F616",
+      "category": "emoticons"
+    },
+    {
+      "id": "239",
+      "symbol": "😗",
+      "name": "亲吻",
+      "name_en": "Kissing Face",
+      "name_ja": "キス",
+      "unicode": "U+1F617",
+      "category": "emoticons"
+    },
+    {
+      "id": "240",
+      "symbol": "😙",
+      "name": "飞吻心",
+      "name_en": "Kissing Face with Smiling Eyes",
+      "name_ja": "笑顔キス",
+      "unicode": "U+1F619",
+      "category": "emoticons"
+    },
+    {
+      "id": "241",
+      "symbol": "😚",
+      "name": "闭眼飞吻",
+      "name_en": "Kissing Face with Closed Eyes",
+      "name_ja": "目閉じキス",
+      "unicode": "U+1F61A",
+      "category": "emoticons"
+    },
+    {
+      "id": "242",
+      "symbol": "😜",
+      "name": "吐舌头",
+      "name_en": "Face with Stuck-Out Tongue",
+      "name_ja": "べー",
+      "unicode": "U+1F61C",
+      "category": "emoticons"
+    },
+    {
+      "id": "243",
+      "symbol": "😝",
+      "name": "闭眼吐舌",
+      "name_en": "Face with Stuck-Out Tongue and Tightly-Closed Eyes",
+      "name_ja": "目閉じべー",
+      "unicode": "U+1F61D",
+      "category": "emoticons"
+    },
+    {
+      "id": "244",
+      "symbol": "😞",
+      "name": "失望",
+      "name_en": "Disappointed Face",
+      "name_ja": "失望",
+      "unicode": "U+1F61E",
+      "category": "emoticons"
+    },
+    {
+      "id": "245",
+      "symbol": "😠",
+      "name": "生气",
+      "name_en": "Angry Face",
+      "name_ja": "怒り",
+      "unicode": "U+1F620",
+      "category": "emoticons"
+    },
+    {
+      "id": "246",
+      "symbol": "😡",
+      "name": "感小生气",
+      "name_en": "Pouting Face",
+      "name_ja": "ふくれっ面",
+      "unicode": "U+1F621",
+      "category": "emoticons"
+    },
+    {
+      "id": "247",
+      "symbol": "😢",
+      "name": "哭泣",
+      "name_en": "Crying Face",
+      "name_ja": "泣き",
+      "unicode": "U+1F622",
+      "category": "emoticons"
+    },
+    {
+      "id": "248",
+      "symbol": "😣",
+      "name": "坚持",
+      "name_en": "Persevering Face",
+      "name_ja": "がまん",
+      "unicode": "U+1F623",
+      "category": "emoticons"
+    },
+    {
+      "id": "249",
+      "symbol": "😤",
+      "name": "勝利",
+      "name_en": "Face with Look of Triumph",
+      "name_ja": "勝ち誇り",
+      "unicode": "U+1F624",
+      "category": "emoticons"
+    },
+    {
+      "id": "250",
+      "symbol": "😥",
+      "name": "失望但释然",
+      "name_en": "Disappointed but Relieved Face",
+      "name_ja": "失望したけど安心",
+      "unicode": "U+1F625",
+      "category": "emoticons"
+    },
+    {
+      "id": "251",
+      "symbol": "😨",
+      "name": "恐惧",
+      "name_en": "Fearful Face",
+      "name_ja": "恐怖",
+      "unicode": "U+1F628",
+      "category": "emoticons"
+    },
+    {
+      "id": "252",
+      "symbol": "😩",
+      "name": "疲惫",
+      "name_en": "Weary Face",
+      "name_ja": "疲労",
+      "unicode": "U+1F629",
+      "category": "emoticons"
+    },
+    {
+      "id": "253",
+      "symbol": "😪",
+      "name": "睡着",
+      "name_en": "Sleepy Face",
+      "name_ja": "眠い",
+      "unicode": "U+1F62A",
+      "category": "emoticons"
+    },
+    {
+      "id": "254",
+      "symbol": "😫",
+      "name": "累",
+      "name_en": "Tired Face",
+      "name_ja": "疲れ",
+      "unicode": "U+1F62B",
+      "category": "emoticons"
+    },
+    {
+      "id": "255",
+      "symbol": "😭",
+      "name": "大哭",
+      "name_en": "Loudly Crying Face",
+      "name_ja": "大泣き",
+      "unicode": "U+1F62D",
+      "category": "emoticons"
+    },
+    {
+      "id": "256",
+      "symbol": "😰",
+      "name": "张嘴",
+      "name_en": "Face with Open Mouth and Cold Sweat",
+      "name_ja": "冷や汗オープンマウス",
+      "unicode": "U+1F630",
+      "category": "emoticons"
+    },
+    {
+      "id": "257",
+      "symbol": "😱",
+      "name": "尖叫",
+      "name_en": "Face Screaming in Fear",
+      "name_ja": "恐怖の叫び",
+      "unicode": "U+1F631",
+      "category": "emoticons"
+    },
+    {
+      "id": "258",
+      "symbol": "😲",
+      "name": "惊讶",
+      "name_en": "Astonished Face",
+      "name_ja": "驚愕",
+      "unicode": "U+1F632",
+      "category": "emoticons"
+    },
+    {
+      "id": "259",
+      "symbol": "😳",
+      "name": "元气",
+      "name_en": "Flushed Face",
+      "name_ja": "赤面",
+      "unicode": "U+1F633",
+      "category": "emoticons"
+    },
+    {
+      "id": "260",
+      "symbol": "😵",
+      "name": "晕眩",
+      "name_en": "Dizzy Face",
+      "name_ja": "めまい",
+      "unicode": "U+1F635",
+      "category": "emoticons"
+    },
+    {
+      "id": "261",
+      "symbol": "😷",
+      "name": "口罩",
+      "name_en": "Face with Medical Mask",
+      "name_ja": "マスク",
+      "unicode": "U+1F637",
+      "category": "emoticons"
+    },
+    {
+      "id": "262",
+      "symbol": "😸",
+      "name": "开心猫",
+      "name_en": "Grinning Cat Face with Smiling Eyes",
+      "name_ja": "にこにこ猫",
+      "unicode": "U+1F638",
+      "category": "emoticons"
+    },
+    {
+      "id": "263",
+      "symbol": "😹",
+      "name": "喜极而泣猫",
+      "name_en": "Cat Face with Tears of Joy",
+      "name_ja": "涙笑い猫",
+      "unicode": "U+1F639",
+      "category": "emoticons"
+    },
+    {
+      "id": "264",
+      "symbol": "😺",
+      "name": "心形眼猫",
+      "name_en": "Smiling Cat Face with Heart-Shaped Eyes",
+      "name_ja": "ハート目猫",
+      "unicode": "U+1F63A",
+      "category": "emoticons"
+    },
+    {
+      "id": "265",
+      "symbol": "😻",
+      "name": "亲吻猫",
+      "name_en": "Kissing Cat Face with Closed Eyes",
+      "name_ja": "キス猫",
+      "unicode": "U+1F63B",
+      "category": "emoticons"
+    },
+    {
+      "id": "266",
+      "symbol": "😼",
+      "name": "坏笑猫",
+      "name_en": "Cat Face with Wry Smile",
+      "name_ja": "にやり猫",
+      "unicode": "U+1F63C",
+      "category": "emoticons"
+    },
+    {
+      "id": "267",
+      "symbol": "😽",
+      "name": "亲吻闭眼猫",
+      "name_en": "Kissing Cat Face with Closed Eyes",
+      "name_ja": "目閉じキス猫",
+      "unicode": "U+1F63D",
+      "category": "emoticons"
+    },
+    {
+      "id": "268",
+      "symbol": "😾",
+      "name": "生气猫",
+      "name_en": "Pouting Cat Face",
+      "name_ja": "ふくれっ面猫",
+      "unicode": "U+1F63E",
+      "category": "emoticons"
+    },
+    {
+      "id": "269",
+      "symbol": "😿",
+      "name": "哭猫",
+      "name_en": "Crying Cat Face",
+      "name_ja": "泣き猫",
+      "unicode": "U+1F63F",
+      "category": "emoticons"
+    },
+    {
+      "id": "270",
+      "symbol": "🙀",
+      "name": "疲惫猫",
+      "name_en": "Weary Cat Face",
+      "name_ja": "疲労猫",
+      "unicode": "U+1F640",
+      "category": "emoticons"
+    },
+    {
+      "id": "271",
+      "symbol": "👊",
+      "name": "出拳",
+      "name_en": "Fisted Hand Sign",
+      "name_ja": "グー",
+      "unicode": "U+1F44A",
+      "category": "emoticons"
+    },
+    {
+      "id": "272",
+      "symbol": "👋",
+      "name": "挥手",
+      "name_en": "Waving Hand Sign",
+      "name_ja": "手を振る",
+      "unicode": "U+1F44B",
+      "category": "emoticons"
+    },
+    {
+      "id": "273",
+      "symbol": "👌",
+      "name": "好的",
+      "name_en": "OK Hand Sign",
+      "name_ja": "OK",
+      "unicode": "U+1F44C",
+      "category": "emoticons"
+    },
+    {
+      "id": "274",
+      "symbol": "👏",
+      "name": "鼓掌",
+      "name_en": "Clapping Hands Sign",
+      "name_ja": "拍手",
+      "unicode": "U+1F44F",
+      "category": "emoticons"
+    },
+    {
+      "id": "275",
+      "symbol": "👐",
+      "name": "开放手",
+      "name_en": "Open Hands Sign",
+      "name_ja": "オープンハンド",
+      "unicode": "U+1F450",
+      "category": "emoticons"
+    },
+    {
+      "id": "276",
+      "symbol": "👆",
+      "name": "向上指",
+      "name_en": "White Up Pointing Backhand Index",
+      "name_ja": "上指差し",
+      "unicode": "U+1F446",
+      "category": "emoticons"
+    },
+    {
+      "id": "277",
+      "symbol": "👇",
+      "name": "向下指",
+      "name_en": "White Down Pointing Backhand Index",
+      "name_ja": "下指差し",
+      "unicode": "U+1F447",
+      "category": "emoticons"
+    },
+    {
+      "id": "278",
+      "symbol": "👈",
+      "name": "向左指",
+      "name_en": "White Left Pointing Backhand Index",
+      "name_ja": "左指差し",
+      "unicode": "U+1F448",
+      "category": "emoticons"
+    },
+    {
+      "id": "279",
+      "symbol": "👉",
+      "name": "向右指",
+      "name_en": "White Right Pointing Backhand Index",
+      "name_ja": "右指差し",
+      "unicode": "U+1F449",
+      "category": "emoticons"
+    },
+    {
+      "id": "280",
+      "symbol": "🙌",
+      "name": "举起手",
+      "name_en": "Person with Folded Hands",
+      "name_ja": "両手上げ",
+      "unicode": "U+1F64C",
+      "category": "emoticons"
+    },
+    {
+      "id": "281",
+      "symbol": "🙏",
+      "name": "祈祷",
+      "name_en": "Person with Folded Hands",
+      "name_ja": "祈る",
+      "unicode": "U+1F64F",
+      "category": "emoticons"
+    },
+    {
+      "id": "282",
+      "symbol": "☝️",
+      "name": "指向上方",
+      "name_en": "White Up Pointing Index",
+      "name_ja": "上指差し",
+      "unicode": "U+261D",
+      "category": "emoticons"
+    },
+    {
+      "id": "283",
+      "symbol": "✊",
+      "name": "握拳",
+      "name_en": "Raised Fist",
+      "name_ja": "パンチ",
+      "unicode": "U+270A",
+      "category": "emoticons"
+    },
+    {
+      "id": "284",
+      "symbol": "✋",
+      "name": "手掌",
+      "name_en": "Raised Hand",
+      "name_ja": "手のひら",
+      "unicode": "U+270B",
+      "category": "emoticons"
+    },
+    {
+      "id": "285",
+      "symbol": "✌️",
+      "name": "胜利手势",
+      "name_en": "Victory Hand",
+      "name_ja": "ピース",
+      "unicode": "U+270C",
+      "category": "emoticons"
+    },
+    {
+      "id": "286",
+      "symbol": "✍️",
+      "name": "写作",
+      "name_en": "Writing Hand",
+      "name_ja": "筆記",
+      "unicode": "U+270D",
+      "category": "emoticons"
+    },
+    {
+      "id": "287",
+      "symbol": "♥️",
+      "name": "红心",
+      "name_en": "Black Heart Suit",
+      "name_ja": "ハート",
+      "unicode": "U+2665",
+      "category": "emoticons"
+    },
+    {
+      "id": "288",
+      "symbol": "💓",
+      "name": "跳动的心",
+      "name_en": "Beating Heart",
+      "name_ja": "ドキドキ",
+      "unicode": "U+1F493",
+      "category": "emoticons"
+    },
+    {
+      "id": "289",
+      "symbol": "💔",
+      "name": "破碎的心",
+      "name_en": "Broken Heart",
+      "name_ja": "割れた心",
+      "unicode": "U+1F494",
+      "category": "emoticons"
+    },
+    {
+      "id": "290",
+      "symbol": "💕",
+      "name": "两颗心",
+      "name_en": "Two Hearts",
+      "name_ja": "二つの心",
+      "unicode": "U+1F495",
+      "category": "emoticons"
+    },
+    {
+      "id": "291",
+      "symbol": "💖",
+      "name": "闪亮的心",
+      "name_en": "Sparkling Heart",
+      "name_ja": "キラキラ心",
+      "unicode": "U+1F496",
+      "category": "emoticons"
+    },
+    {
+      "id": "292",
+      "symbol": "💗",
+      "name": "成长的心",
+      "name_en": "Growing Heart",
+      "name_ja": "成長する心",
+      "unicode": "U+1F497",
+      "category": "emoticons"
+    },
+    {
+      "id": "293",
+      "symbol": "💘",
+      "name": "丘比特箭",
+      "name_en": "Heart with Arrow",
+      "name_ja": "丘比特の矢",
+      "unicode": "U+1F498",
+      "category": "emoticons"
+    },
+    {
+      "id": "294",
+      "symbol": "💙",
+      "name": "蓝心",
+      "name_en": "Blue Heart",
+      "name_ja": "青い心",
+      "unicode": "U+1F499",
+      "category": "emoticons"
+    },
+    {
+      "id": "295",
+      "symbol": "💚",
+      "name": "绿心",
+      "name_en": "Green Heart",
+      "name_ja": "緑の心",
+      "unicode": "U+1F49A",
+      "category": "emoticons"
+    },
+    {
+      "id": "296",
+      "symbol": "💛",
+      "name": "黄心",
+      "name_en": "Yellow Heart",
+      "name_ja": "黄色の心",
+      "unicode": "U+1F49B",
+      "category": "emoticons"
+    },
+    {
+      "id": "297",
+      "symbol": "💜",
+      "name": "紫心",
+      "name_en": "Purple Heart",
+      "name_ja": "紫の心",
+      "unicode": "U+1F49C",
+      "category": "emoticons"
+    },
+    {
+      "id": "298",
+      "symbol": "💝",
+      "name": "粉心",
+      "name_en": "Heart with Ribbon",
+      "name_ja": "リボン付き心",
+      "unicode": "U+1F49D",
+      "category": "emoticons"
+    },
+    {
+      "id": "299",
+      "symbol": "💞",
+      "name": "旋转的心",
+      "name_en": "Revolving Hearts",
+      "name_ja": "回転する心",
+      "unicode": "U+1F49E",
+      "category": "emoticons"
+    },
+    {
+      "id": "300",
+      "symbol": "💟",
+      "name": "心饰",
+      "name_en": "Heart Decoration",
+      "name_ja": "ハート装飾",
+      "unicode": "U+1F49F",
+      "category": "emoticons"
+    }
+  ],
+  "count": 91
+}

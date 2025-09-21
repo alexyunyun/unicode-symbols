@@ -1,0 +1,239 @@
+{
+  "category": {
+    "id": "currency",
+    "name": "货币符号",
+    "name_en": "Currency",
+    "name_ja": "通貨記号",
+    "description": "各国货币符号",
+    "description_en": "Currency symbols from different countries",
+    "description_ja": "各国の通貨記号"
+  },
+  "symbols": [
+    {
+      "id": "31",
+      "symbol": "$",
+      "name": "美元",
+      "name_en": "Dollar",
+      "name_ja": "ドル",
+      "unicode": "U+0024",
+      "category": "currency"
+    },
+    {
+      "id": "32",
+      "symbol": "€",
+      "name": "欧元",
+      "name_en": "Euro",
+      "name_ja": "ユーロ",
+      "unicode": "U+20AC",
+      "category": "currency"
+    },
+    {
+      "id": "33",
+      "symbol": "¥",
+      "name": "人民币/日元",
+      "name_en": "Yuan/Yen",
+      "name_ja": "人民元/円",
+      "unicode": "U+00A5",
+      "category": "currency"
+    },
+    {
+      "id": "34",
+      "symbol": "£",
+      "name": "英镑",
+      "name_en": "Pound",
+      "name_ja": "ポンド",
+      "unicode": "U+00A3",
+      "category": "currency"
+    },
+    {
+      "id": "35",
+      "symbol": "₹",
+      "name": "印度卢比",
+      "name_en": "Indian Rupee",
+      "name_ja": "インドルピー",
+      "unicode": "U+20B9",
+      "category": "currency"
+    },
+    {
+      "id": "36",
+      "symbol": "₽",
+      "name": "俄罗斯卢布",
+      "name_en": "Russian Ruble",
+      "name_ja": "ロシアルーブル",
+      "unicode": "U+20BD",
+      "category": "currency"
+    },
+    {
+      "id": "121",
+      "symbol": "¢",
+      "name": "美分",
+      "name_en": "Cent",
+      "name_ja": "セント",
+      "unicode": "U+00A2",
+      "category": "currency"
+    },
+    {
+      "id": "122",
+      "symbol": "₩",
+      "name": "韩元",
+      "name_en": "Won",
+      "name_ja": "ウォン",
+      "unicode": "U+20A9",
+      "category": "currency"
+    },
+    {
+      "id": "123",
+      "symbol": "₫",
+      "name": "越南盾",
+      "name_en": "Dong",
+      "name_ja": "ドン",
+      "unicode": "U+20AB",
+      "category": "currency"
+    },
+    {
+      "id": "124",
+      "symbol": "₱",
+      "name": "菲律宾比索",
+      "name_en": "Peso",
+      "name_ja": "ペソ",
+      "unicode": "U+20B1",
+      "category": "currency"
+    },
+    {
+      "id": "125",
+      "symbol": "₹",
+      "name": "印度卢比",
+      "name_en": "Indian Rupee",
+      "name_ja": "インドルピー",
+      "unicode": "U+20B9",
+      "category": "currency"
+    },
+    {
+      "id": "338",
+      "symbol": "₡",
+      "name": "哥斯达黎加科朗",
+      "name_en": "Costa Rican Colón",
+      "name_ja": "コスタリカコロン",
+      "unicode": "U+20A1",
+      "category": "currency"
+    },
+    {
+      "id": "339",
+      "symbol": "₦",
+      "name": "尼日利亚奈拉",
+      "name_en": "Naira",
+      "name_ja": "ナイラ",
+      "unicode": "U+20A6",
+      "category": "currency"
+    },
+    {
+      "id": "340",
+      "symbol": "₨",
+      "name": "印度卢比(旧)",
+      "name_en": "Rupee (old)",
+      "name_ja": "ルピー（旧）",
+      "unicode": "U+20A8",
+      "category": "currency"
+    },
+    {
+      "id": "341",
+      "symbol": "₩",
+      "name": "韩元",
+      "name_en": "Won",
+      "name_ja": "ウォン",
+      "unicode": "U+20A9",
+      "category": "currency"
+    },
+    {
+      "id": "342",
+      "symbol": "₪",
+      "name": "以色列谢克尔",
+      "name_en": "Shekel",
+      "name_ja": "シェケル",
+      "unicode": "U+20AA",
+      "category": "currency"
+    },
+    {
+      "id": "343",
+      "symbol": "₵",
+      "name": "加纳塞迪",
+      "name_en": "Cedi",
+      "name_ja": "セディ",
+      "unicode": "U+20B5",
+      "category": "currency"
+    },
+    {
+      "id": "344",
+      "symbol": "₸",
+      "name": "哈萨克斯坦坚戈",
+      "name_en": "Tenge",
+      "name_ja": "テンゲ",
+      "unicode": "U+20B8",
+      "category": "currency"
+    },
+    {
+      "id": "345",
+      "symbol": "₼",
+      "name": "阿塞拜疆马纳特",
+      "name_en": "Manat",
+      "name_ja": "マナト",
+      "unicode": "U+20BC",
+      "category": "currency"
+    },
+    {
+      "id": "346",
+      "symbol": "₽",
+      "name": "俄罗斯卢布",
+      "name_en": "Russian Ruble",
+      "name_ja": "ロシアルーブル",
+      "unicode": "U+20BD",
+      "category": "currency"
+    },
+    {
+      "id": "347",
+      "symbol": "＄",
+      "name": "全角美元符号",
+      "name_en": "Fullwidth Dollar Sign",
+      "name_ja": "全角ドル記号",
+      "unicode": "U+FF04",
+      "category": "currency"
+    },
+    {
+      "id": "348",
+      "symbol": "￠",
+      "name": "全角美分符号",
+      "name_en": "Fullwidth Cent Sign",
+      "name_ja": "全角セント記号",
+      "unicode": "U+FFE0",
+      "category": "currency"
+    },
+    {
+      "id": "349",
+      "symbol": "￡",
+      "name": "全角英镑符号",
+      "name_en": "Fullwidth Pound Sign",
+      "name_ja": "全角ポンド記号",
+      "unicode": "U+FFE1",
+      "category": "currency"
+    },
+    {
+      "id": "350",
+      "symbol": "￥",
+      "name": "全角日元符号",
+      "name_en": "Fullwidth Yen Sign",
+      "name_ja": "全角円記号",
+      "unicode": "U+FFE5",
+      "category": "currency"
+    },
+    {
+      "id": "351",
+      "symbol": "￦",
+      "name": "全角韩元符号",
+      "name_en": "Fullwidth Won Sign",
+      "name_ja": "全角ウォン記号",
+      "unicode": "U+FFE6",
+      "category": "currency"
+    }
+  ],
+  "count": 25
+}

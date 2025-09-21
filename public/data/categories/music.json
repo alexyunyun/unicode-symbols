@@ -1,0 +1,104 @@
+{
+  "category": {
+    "id": "music",
+    "name": "音乐艺术符号",
+    "name_en": "Music & Arts",
+    "name_ja": "音楽・芸術記号",
+    "description": "音乐和艺术符号",
+    "description_en": "Music and arts symbols",
+    "description_ja": "音楽と芸術記号"
+  },
+  "symbols": [
+    {
+      "id": "331",
+      "symbol": "♩",
+      "name": "四分音符",
+      "name_en": "Quarter Note",
+      "name_ja": "四分音符",
+      "unicode": "U+2669",
+      "category": "music"
+    },
+    {
+      "id": "332",
+      "symbol": "♪",
+      "name": "八分音符",
+      "name_en": "Eighth Note",
+      "name_ja": "八分音符",
+      "unicode": "U+266A",
+      "category": "music"
+    },
+    {
+      "id": "333",
+      "symbol": "♫",
+      "name": "连音符",
+      "name_en": "Beamed Eighth Notes",
+      "name_ja": "連符",
+      "unicode": "U+266B",
+      "category": "music"
+    },
+    {
+      "id": "334",
+      "symbol": "♬",
+      "name": "十六分音符",
+      "name_en": "Beamed Sixteenth Notes",
+      "name_ja": "十六分音符",
+      "unicode": "U+266C",
+      "category": "music"
+    },
+    {
+      "id": "335",
+      "symbol": "♭",
+      "name": "降音符",
+      "name_en": "Flat",
+      "name_ja": "フラット",
+      "unicode": "U+266D",
+      "category": "music"
+    },
+    {
+      "id": "336",
+      "symbol": "♮",
+      "name": "还原音符",
+      "name_en": "Natural",
+      "name_ja": "ナチュラル",
+      "unicode": "U+266E",
+      "category": "music"
+    },
+    {
+      "id": "337",
+      "symbol": "♯",
+      "name": "升音符",
+      "name_en": "Sharp",
+      "name_ja": "シャープ",
+      "unicode": "U+266F",
+      "category": "music"
+    },
+    {
+      "id": "501",
+      "symbol": "𝄞",
+      "name": "高音谱号",
+      "name_en": "G Clef",
+      "name_ja": "ト音記号",
+      "unicode": "U+1D11E",
+      "category": "music"
+    },
+    {
+      "id": "502",
+      "symbol": "𝄢",
+      "name": "低音谱号",
+      "name_en": "F Clef",
+      "name_ja": "ヘ音記号",
+      "unicode": "U+1D122",
+      "category": "music"
+    },
+    {
+      "id": "503",
+      "symbol": "𝄡",
+      "name": "中音谱号",
+      "name_en": "C Clef",
+      "name_ja": "ハ音記号",
+      "unicode": "U+1D121",
+      "category": "music"
+    }
+  ],
+  "count": 10
+}

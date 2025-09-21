@@ -1,0 +1,122 @@
+{
+  "category": {
+    "id": "religious",
+    "name": "宗教文化符号",
+    "name_en": "Religious & Cultural",
+    "name_ja": "宗教・文化記号",
+    "description": "宗教和文化符号",
+    "description_en": "Religious and cultural symbols",
+    "description_ja": "宗教と文化記号"
+  },
+  "symbols": [
+    {
+      "id": "511",
+      "symbol": "✝",
+      "name": "拉丁十字",
+      "name_en": "Latin Cross",
+      "name_ja": "ラテン十字",
+      "unicode": "U+271D",
+      "category": "religious"
+    },
+    {
+      "id": "512",
+      "symbol": "☦",
+      "name": "东正教十字",
+      "name_en": "Orthodox Cross",
+      "name_ja": "正教会十字",
+      "unicode": "U+2626",
+      "category": "religious"
+    },
+    {
+      "id": "513",
+      "symbol": "✡",
+      "name": "大卫之星",
+      "name_en": "Star of David",
+      "name_ja": "ダビデの星",
+      "unicode": "U+2721",
+      "category": "religious"
+    },
+    {
+      "id": "514",
+      "symbol": "☪",
+      "name": "星月符号",
+      "name_en": "Star and Crescent",
+      "name_ja": "星と三日月",
+      "unicode": "U+262A",
+      "category": "religious"
+    },
+    {
+      "id": "515",
+      "symbol": "☮",
+      "name": "和平符号",
+      "name_en": "Peace Symbol",
+      "name_ja": "平和の印",
+      "unicode": "U+262E",
+      "category": "religious"
+    },
+    {
+      "id": "516",
+      "symbol": "☯",
+      "name": "阴阳符号",
+      "name_en": "Yin Yang",
+      "name_ja": "陰陽",
+      "unicode": "U+262F",
+      "category": "religious"
+    },
+    {
+      "id": "517",
+      "symbol": "🕎",
+      "name": "九烛台",
+      "name_en": "Menorah with Nine Branches",
+      "name_ja": "九本足のメノーラー",
+      "unicode": "U+1F54E",
+      "category": "religious"
+    },
+    {
+      "id": "518",
+      "symbol": "☸",
+      "name": "法轮",
+      "name_en": "Wheel of Dharma",
+      "name_ja": "法輪",
+      "unicode": "U+2638",
+      "category": "religious"
+    },
+    {
+      "id": "519",
+      "symbol": "✠",
+      "name": "马耳他十字",
+      "name_en": "Maltese Cross",
+      "name_ja": "マルタ十字",
+      "unicode": "U+2720",
+      "category": "religious"
+    },
+    {
+      "id": "520",
+      "symbol": "☥",
+      "name": "安卡符号",
+      "name_en": "Ankh",
+      "name_ja": "アンク",
+      "unicode": "U+2625",
+      "category": "religious"
+    },
+    {
+      "id": "521",
+      "symbol": "☊",
+      "name": "升交点",
+      "name_en": "Ascending Node",
+      "name_ja": "昇交点",
+      "unicode": "U+260A",
+      "category": "religious"
+    },
+    {
+      "id": "522",
+      "symbol": "☋",
+      "name": "降交点",
+      "name_en": "Descending Node",
+      "name_ja": "降交点",
+      "unicode": "U+260B",
+      "category": "religious"
+    }
+  ],
+  "count": 12
+}

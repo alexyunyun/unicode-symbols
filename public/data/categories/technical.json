@@ -1,0 +1,239 @@
+{
+  "category": {
+    "id": "technical",
+    "name": "技术符号",
+    "name_en": "Technical",
+    "name_ja": "技術記号",
+    "description": "技术和工程符号",
+    "description_en": "Technical and engineering symbols",
+    "description_ja": "技術と工学記号"
+  },
+  "symbols": [
+    {
+      "id": "62",
+      "symbol": "©",
+      "name": "版权",
+      "name_en": "Copyright",
+      "name_ja": "著作権",
+      "unicode": "U+00A9",
+      "category": "technical"
+    },
+    {
+      "id": "63",
+      "symbol": "®",
+      "name": "注册商标",
+      "name_en": "Registered",
+      "name_ja": "登録商標",
+      "unicode": "U+00AE",
+      "category": "technical"
+    },
+    {
+      "id": "64",
+      "symbol": "™",
+      "name": "商标",
+      "name_en": "Trademark",
+      "name_ja": "商標",
+      "unicode": "U+2122",
+      "category": "technical"
+    },
+    {
+      "id": "65",
+      "symbol": "⚡",
+      "name": "闪电",
+      "name_en": "High Voltage",
+      "name_ja": "高電圧",
+      "unicode": "U+26A1",
+      "category": "technical"
+    },
+    {
+      "id": "66",
+      "symbol": "⚙️",
+      "name": "齿轮",
+      "name_en": "Gear",
+      "name_ja": "歯車",
+      "unicode": "U+2699",
+      "category": "technical"
+    },
+    {
+      "id": "67",
+      "symbol": "🔧",
+      "name": "扳手",
+      "name_en": "Wrench",
+      "name_ja": "レンチ",
+      "unicode": "U+1F527",
+      "category": "technical"
+    },
+    {
+      "id": "68",
+      "symbol": "🔨",
+      "name": "锤子",
+      "name_en": "Hammer",
+      "name_ja": "ハンマー",
+      "unicode": "U+1F528",
+      "category": "technical"
+    },
+    {
+      "id": "301",
+      "symbol": "⚙️",
+      "name": "齿轮",
+      "name_en": "Gear",
+      "name_ja": "歯車",
+      "unicode": "U+2699",
+      "category": "technical"
+    },
+    {
+      "id": "302",
+      "symbol": "⚛️",
+      "name": "原子符号",
+      "name_en": "Atom Symbol",
+      "name_ja": "原子記号",
+      "unicode": "U+269B",
+      "category": "technical"
+    },
+    {
+      "id": "303",
+      "symbol": "☢️",
+      "name": "放射性",
+      "name_en": "Radioactive Sign",
+      "name_ja": "放射能",
+      "unicode": "U+2622",
+      "category": "technical"
+    },
+    {
+      "id": "304",
+      "symbol": "☣️",
+      "name": "生物危险",
+      "name_en": "Biohazard Sign",
+      "name_ja": "バイオハザード",
+      "unicode": "U+2623",
+      "category": "technical"
+    },
+    {
+      "id": "305",
+      "symbol": "☠️",
+      "name": "骷髅旗",
+      "name_en": "Skull and Crossbones",
+      "name_ja": "骸骨と骨",
+      "unicode": "U+2620",
+      "category": "technical"
+    },
+    {
+      "id": "306",
+      "symbol": "✂️",
+      "name": "剪刀",
+      "name_en": "Black Scissors",
+      "name_ja": "ハサミ",
+      "unicode": "U+2702",
+      "category": "technical"
+    },
+    {
+      "id": "307",
+      "symbol": "⌨️",
+      "name": "键盘",
+      "name_en": "Keyboard",
+      "name_ja": "キーボード",
+      "unicode": "U+2328",
+      "category": "technical"
+    },
+    {
+      "id": "308",
+      "symbol": "🖥️",
+      "name": "桌面电脑",
+      "name_en": "Desktop Computer",
+      "name_ja": "デスクトップ",
+      "unicode": "U+1F5A5",
+      "category": "technical"
+    },
+    {
+      "id": "309",
+      "symbol": "🖱️",
+      "name": "电脑鼠标",
+      "name_en": "Computer Mouse",
+      "name_ja": "マウス",
+      "unicode": "U+1F5B1",
+      "category": "technical"
+    },
+    {
+      "id": "310",
+      "symbol": "💾",
+      "name": "软盘",
+      "name_en": "Floppy Disk",
+      "name_ja": "フロッピー",
+      "unicode": "U+1F4BE",
+      "category": "technical"
+    },
+    {
+      "id": "311",
+      "symbol": "💿",
+      "name": "CD",
+      "name_en": "Optical Disc",
+      "name_ja": "CD",
+      "unicode": "U+1F4BF",
+      "category": "technical"
+    },
+    {
+      "id": "312",
+      "symbol": "📀",
+      "name": "DVD",
+      "name_en": "DVD",
+      "name_ja": "DVD",
+      "unicode": "U+1F4C0",
+      "category": "technical"
+    },
+    {
+      "id": "313",
+      "symbol": "🔌",
+      "name": "电源插头",
+      "name_en": "Electric Plug",
+      "name_ja": "電源プラグ",
+      "unicode": "U+1F50C",
+      "category": "technical"
+    },
+    {
+      "id": "314",
+      "symbol": "🔋",
+      "name": "电池",
+      "name_en": "Battery",
+      "name_ja": "電池",
+      "unicode": "U+1F50B",
+      "category": "technical"
+    },
+    {
+      "id": "315",
+      "symbol": "🔗",
+      "name": "链接",
+      "name_en": "Link Symbol",
+      "name_ja": "リンク",
+      "unicode": "U+1F517",
+      "category": "technical"
+    },
+    {
+      "id": "316",
+      "symbol": "📡",
+      "name": "卫星天线",
+      "name_en": "Satellite Antenna",
+      "name_ja": "衛星アンテナ",
+      "unicode": "U+1F4E1",
+      "category": "technical"
+    },
+    {
+      "id": "317",
+      "symbol": "📶",
+      "name": "信号强度",
+      "name_en": "Antenna with Bars",
+      "name_ja": "電波強度",
+      "unicode": "U+1F4F6",
+      "category": "technical"
+    },
+    {
+      "id": "318",
+      "symbol": "🌐",
+      "name": "地球网络",
+      "name_en": "Globe with Meridians",
+      "name_ja": "地球と経線",
+      "unicode": "U+1F310",
+      "category": "technical"
+    }
+  ],
+  "count": 25
+}

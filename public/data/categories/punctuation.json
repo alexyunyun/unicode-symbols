@@ -1,0 +1,203 @@
+{
+  "category": {
+    "id": "punctuation",
+    "name": "标点符号",
+    "name_en": "Punctuation",
+    "name_ja": "句読点",
+    "description": "标点和语法符号",
+    "description_en": "Punctuation and grammatical symbols",
+    "description_ja": "句読点と文法記号"
+  },
+  "symbols": [
+    {
+      "id": "47",
+      "symbol": "…",
+      "name": "省略号",
+      "name_en": "Ellipsis",
+      "name_ja": "省略記号",
+      "unicode": "U+2026",
+      "category": "punctuation"
+    },
+    {
+      "id": "48",
+      "symbol": "–",
+      "name": "短破折号",
+      "name_en": "En Dash",
+      "name_ja": "半角ダッシュ",
+      "unicode": "U+2013",
+      "category": "punctuation"
+    },
+    {
+      "id": "49",
+      "symbol": "—",
+      "name": "长破折号",
+      "name_en": "Em Dash",
+      "name_ja": "全角ダッシュ",
+      "unicode": "U+2014",
+      "category": "punctuation"
+    },
+    {
+      "id": "50",
+      "symbol": "'",
+      "name": "左单引号",
+      "name_en": "Left Single Quotation Mark",
+      "name_ja": "左シングル引用符",
+      "unicode": "U+2018",
+      "category": "punctuation"
+    },
+    {
+      "id": "51",
+      "symbol": "'",
+      "name": "右单引号",
+      "name_en": "Right Single Quotation Mark",
+      "name_ja": "右シングル引用符",
+      "unicode": "U+2019",
+      "category": "punctuation"
+    },
+    {
+      "id": "52",
+      "symbol": "\"",
+      "name": "左双引号",
+      "name_en": "Left Double Quotation Mark",
+      "name_ja": "左ダブル引用符",
+      "unicode": "U+201C",
+      "category": "punctuation"
+    },
+    {
+      "id": "53",
+      "symbol": "\"",
+      "name": "右双引号",
+      "name_en": "Right Double Quotation Mark",
+      "name_ja": "右ダブル引用符",
+      "unicode": "U+201D",
+      "category": "punctuation"
+    },
+    {
+      "id": "624",
+      "symbol": "‹",
+      "name": "单左角引号",
+      "name_en": "Single Left-Pointing Angle Quotation Mark",
+      "name_ja": "左角引用符",
+      "unicode": "U+2039",
+      "category": "punctuation"
+    },
+    {
+      "id": "625",
+      "symbol": "›",
+      "name": "单右角引号",
+      "name_en": "Single Right-Pointing Angle Quotation Mark",
+      "name_ja": "右角引用符",
+      "unicode": "U+203A",
+      "category": "punctuation"
+    },
+    {
+      "id": "626",
+      "symbol": "«",
+      "name": "双左角引号",
+      "name_en": "Left-Pointing Double Angle Quotation Mark",
+      "name_ja": "左二重角引用符",
+      "unicode": "U+00AB",
+      "category": "punctuation"
+    },
+    {
+      "id": "627",
+      "symbol": "»",
+      "name": "双右角引号",
+      "name_en": "Right-Pointing Double Angle Quotation Mark",
+      "name_ja": "右二重角引用符",
+      "unicode": "U+00BB",
+      "category": "punctuation"
+    },
+    {
+      "id": "628",
+      "symbol": "‚",
+      "name": "单低引号",
+      "name_en": "Single Low-9 Quotation Mark",
+      "name_ja": "下付き引用符",
+      "unicode": "U+201A",
+      "category": "punctuation"
+    },
+    {
+      "id": "629",
+      "symbol": "„",
+      "name": "双低引号",
+      "name_en": "Double Low-9 Quotation Mark",
+      "name_ja": "下付き二重引用符",
+      "unicode": "U+201E",
+      "category": "punctuation"
+    },
+    {
+      "id": "630",
+      "symbol": "‡",
+      "name": "双剑标",
+      "name_en": "Double Dagger",
+      "name_ja": "ダブルダガー",
+      "unicode": "U+2021",
+      "category": "punctuation"
+    },
+    {
+      "id": "631",
+      "symbol": "§",
+      "name": "章节符号",
+      "name_en": "Section Sign",
+      "name_ja": "節記号",
+      "unicode": "U+00A7",
+      "category": "punctuation"
+    },
+    {
+      "id": "632",
+      "symbol": "¶",
+      "name": "段落符号",
+      "name_en": "Pilcrow Sign",
+      "name_ja": "段落記号",
+      "unicode": "U+00B6",
+      "category": "punctuation"
+    },
+    {
+      "id": "633",
+      "symbol": "‖",
+      "name": "双竖线",
+      "name_en": "Double Vertical Line",
+      "name_ja": "二重縦線",
+      "unicode": "U+2016",
+      "category": "punctuation"
+    },
+    {
+      "id": "634",
+      "symbol": "‼",
+      "name": "双感叹号",
+      "name_en": "Double Exclamation Mark",
+      "name_ja": "二重感嘆符",
+      "unicode": "U+203C",
+      "category": "punctuation"
+    },
+    {
+      "id": "635",
+      "symbol": "⁇",
+      "name": "双问号",
+      "name_en": "Double Question Mark",
+      "name_ja": "二重疑問符",
+      "unicode": "U+2047",
+      "category": "punctuation"
+    },
+    {
+      "id": "636",
+      "symbol": "⁈",
+      "name": "问感叹号",
+      "name_en": "Question Exclamation Mark",
+      "name_ja": "疑問感嘆符",
+      "unicode": "U+2048",
+      "category": "punctuation"
+    },
+    {
+      "id": "637",
+      "symbol": "⁉",
+      "name": "感问号",
+      "name_en": "Exclamation Question Mark",
+      "name_ja": "感嘆疑問符",
+      "unicode": "U+2049",
+      "category": "punctuation"
+    }
+  ],
+  "count": 21
+}

@@ -1,0 +1,176 @@
+{
+  "category": {
+    "id": "nature",
+    "name": "自然环境符号",
+    "name_en": "Nature & Environment",
+    "name_ja": "自然・環境記号",
+    "description": "自然和环境相关符号",
+    "description_en": "Nature and environment related symbols",
+    "description_ja": "自然と環境関連記号"
+  },
+  "symbols": [
+    {
+      "id": "553",
+      "symbol": "🌍",
+      "name": "地球非洲",
+      "name_en": "Earth Globe Europe-Africa",
+      "name_ja": "地球ヨーロッパ・アフリカ",
+      "unicode": "U+1F30D",
+      "category": "nature"
+    },
+    {
+      "id": "554",
+      "symbol": "🌎",
+      "name": "地球美洲",
+      "name_en": "Earth Globe Americas",
+      "name_ja": "地球アメリカ",
+      "unicode": "U+1F30E",
+      "category": "nature"
+    },
+    {
+      "id": "555",
+      "symbol": "🌏",
+      "name": "地球亚洲",
+      "name_en": "Earth Globe Asia-Australia",
+      "name_ja": "地球アジア・オーストラリア",
+      "unicode": "U+1F30F",
+      "category": "nature"
+    },
+    {
+      "id": "556",
+      "symbol": "🌋",
+      "name": "火山",
+      "name_en": "Volcano",
+      "name_ja": "火山",
+      "unicode": "U+1F30B",
+      "category": "nature"
+    },
+    {
+      "id": "557",
+      "symbol": "🏔️",
+      "name": "雪山",
+      "name_en": "Snow-Capped Mountain",
+      "name_ja": "雪山",
+      "unicode": "U+1F3D4",
+      "category": "nature"
+    },
+    {
+      "id": "558",
+      "symbol": "⛰️",
+      "name": "山峰",
+      "name_en": "Mountain",
+      "name_ja": "山",
+      "unicode": "U+26F0",
+      "category": "nature"
+    },
+    {
+      "id": "559",
+      "symbol": "🏖️",
+      "name": "海滩",
+      "name_en": "Beach with Umbrella",
+      "name_ja": "ビーチ",
+      "unicode": "U+1F3D6",
+      "category": "nature"
+    },
+    {
+      "id": "560",
+      "symbol": "🏜️",
+      "name": "沙漠",
+      "name_en": "Desert",
+      "name_ja": "砂漠",
+      "unicode": "U+1F3DC",
+      "category": "nature"
+    },
+    {
+      "id": "561",
+      "symbol": "🌊",
+      "name": "海浪",
+      "name_en": "Water Wave",
+      "name_ja": "波",
+      "unicode": "U+1F30A",
+      "category": "nature"
+    },
+    {
+      "id": "562",
+      "symbol": "💧",
+      "name": "水滴",
+      "name_en": "Droplet",
+      "name_ja": "水滴",
+      "unicode": "U+1F4A7",
+      "category": "nature"
+    },
+    {
+      "id": "563",
+      "symbol": "🌿",
+      "name": "草叶",
+      "name_en": "Herb",
+      "name_ja": "草",
+      "unicode": "U+1F33F",
+      "category": "nature"
+    },
+    {
+      "id": "564",
+      "symbol": "🍃",
+      "name": "叶子",
+      "name_en": "Leaf Fluttering in Wind",
+      "name_ja": "風に舞う葉",
+      "unicode": "U+1F343",
+      "category": "nature"
+    },
+    {
+      "id": "565",
+      "symbol": "🌱",
+      "name": "幼苗",
+      "name_en": "Seedling",
+      "name_ja": "芽",
+      "unicode": "U+1F331",
+      "category": "nature"
+    },
+    {
+      "id": "566",
+      "symbol": "🌳",
+      "name": "大树",
+      "name_en": "Deciduous Tree",
+      "name_ja": "広葉樹",
+      "unicode": "U+1F333",
+      "category": "nature"
+    },
+    {
+      "id": "567",
+      "symbol": "🌲",
+      "name": "常青树",
+      "name_en": "Evergreen Tree",
+      "name_ja": "常緑樹",
+      "unicode": "U+1F332",
+      "category": "nature"
+    },
+    {
+      "id": "568",
+      "symbol": "🌺",
+      "name": "木槿花",
+      "name_en": "Hibiscus",
+      "name_ja": "ハイビスカス",
+      "unicode": "U+1F33A",
+      "category": "nature"
+    },
+    {
+      "id": "569",
+      "symbol": "🌸",
+      "name": "樱花",
+      "name_en": "Cherry Blossom",
+      "name_ja": "桜",
+      "unicode": "U+1F338",
+      "category": "nature"
+    },
+    {
+      "id": "570",
+      "symbol": "🌼",
+      "name": "雏菊",
+      "name_en": "Blossom",
+      "name_ja": "花",
+      "unicode": "U+1F33C",
+      "category": "nature"
+    }
+  ],
+  "count": 18
+}

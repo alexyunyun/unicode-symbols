@@ -1,0 +1,230 @@
+{
+  "category": {
+    "id": "shapes",
+    "name": "几何图形",
+    "name_en": "Shapes",
+    "name_ja": "幾何学図形",
+    "description": "基本几何形状",
+    "description_en": "Basic geometric shapes",
+    "description_ja": "基本的な幾何学図形"
+  },
+  "symbols": [
+    {
+      "id": "54",
+      "symbol": "○",
+      "name": "圆圈",
+      "name_en": "Circle",
+      "name_ja": "円",
+      "unicode": "U+25CB",
+      "category": "shapes"
+    },
+    {
+      "id": "55",
+      "symbol": "●",
+      "name": "实心圆",
+      "name_en": "Black Circle",
+      "name_ja": "黒丸",
+      "unicode": "U+25CF",
+      "category": "shapes"
+    },
+    {
+      "id": "56",
+      "symbol": "□",
+      "name": "方框",
+      "name_en": "Square",
+      "name_ja": "四角",
+      "unicode": "U+25A1",
+      "category": "shapes"
+    },
+    {
+      "id": "57",
+      "symbol": "■",
+      "name": "实心方框",
+      "name_en": "Black Square",
+      "name_ja": "黒四角",
+      "unicode": "U+25A0",
+      "category": "shapes"
+    },
+    {
+      "id": "58",
+      "symbol": "△",
+      "name": "三角形",
+      "name_en": "Triangle",
+      "name_ja": "三角形",
+      "unicode": "U+25B3",
+      "category": "shapes"
+    },
+    {
+      "id": "59",
+      "symbol": "▲",
+      "name": "实心三角形",
+      "name_en": "Black Triangle",
+      "name_ja": "黒三角",
+      "unicode": "U+25B2",
+      "category": "shapes"
+    },
+    {
+      "id": "60",
+      "symbol": "◇",
+      "name": "菱形",
+      "name_en": "Diamond",
+      "name_ja": "菱形",
+      "unicode": "U+25C7",
+      "category": "shapes"
+    },
+    {
+      "id": "61",
+      "symbol": "◆",
+      "name": "实心菱形",
+      "name_en": "Black Diamond",
+      "name_ja": "黒菱形",
+      "unicode": "U+25C6",
+      "category": "shapes"
+    },
+    {
+      "id": "650",
+      "symbol": "▷",
+      "name": "右三角形",
+      "name_en": "White Right-Pointing Triangle",
+      "name_ja": "右三角形",
+      "unicode": "U+25B7",
+      "category": "shapes"
+    },
+    {
+      "id": "651",
+      "symbol": "◁",
+      "name": "左三角形",
+      "name_en": "White Left-Pointing Triangle",
+      "name_ja": "左三角形",
+      "unicode": "U+25C1",
+      "category": "shapes"
+    },
+    {
+      "id": "652",
+      "symbol": "▼",
+      "name": "下三角形",
+      "name_en": "Black Down-Pointing Triangle",
+      "name_ja": "下三角形",
+      "unicode": "U+25BC",
+      "category": "shapes"
+    },
+    {
+      "id": "653",
+      "symbol": "▽",
+      "name": "空心下三角",
+      "name_en": "White Down-Pointing Triangle",
+      "name_ja": "空心下三角",
+      "unicode": "U+25BD",
+      "category": "shapes"
+    },
+    {
+      "id": "654",
+      "symbol": "◀",
+      "name": "左黑三角",
+      "name_en": "Black Left-Pointing Triangle",
+      "name_ja": "左黒三角",
+      "unicode": "U+25C0",
+      "category": "shapes"
+    },
+    {
+      "id": "655",
+      "symbol": "▶",
+      "name": "右黑三角",
+      "name_en": "Black Right-Pointing Triangle",
+      "name_ja": "右黒三角",
+      "unicode": "U+25B6",
+      "category": "shapes"
+    },
+    {
+      "id": "656",
+      "symbol": "◊",
+      "name": "小菱形",
+      "name_en": "Lozenge",
+      "name_ja": "菱形",
+      "unicode": "U+25CA",
+      "category": "shapes"
+    },
+    {
+      "id": "657",
+      "symbol": "◉",
+      "name": "圆中点",
+      "name_en": "Fisheye",
+      "name_ja": "魚眼",
+      "unicode": "U+25C9",
+      "category": "shapes"
+    },
+    {
+      "id": "658",
+      "symbol": "◎",
+      "name": "双环",
+      "name_en": "Concentric Circles",
+      "name_ja": "同心円",
+      "unicode": "U+25CE",
+      "category": "shapes"
+    },
+    {
+      "id": "659",
+      "symbol": "⬟",
+      "name": "五边形",
+      "name_en": "Black Pentagon",
+      "name_ja": "黒五角形",
+      "unicode": "U+2B1F",
+      "category": "shapes"
+    },
+    {
+      "id": "660",
+      "symbol": "⬢",
+      "name": "六边形",
+      "name_en": "Black Hexagon",
+      "name_ja": "黒六角形",
+      "unicode": "U+2B22",
+      "category": "shapes"
+    },
+    {
+      "id": "661",
+      "symbol": "⬣",
+      "name": "黑六边形",
+      "name_en": "Horizontal Black Hexagon",
+      "name_ja": "水平黒六角形",
+      "unicode": "U+2B23",
+      "category": "shapes"
+    },
+    {
+      "id": "662",
+      "symbol": "⭐",
+      "name": "中等星形",
+      "name_en": "White Medium Star",
+      "name_ja": "中星",
+      "unicode": "U+2B50",
+      "category": "shapes"
+    },
+    {
+      "id": "663",
+      "symbol": "🌟",
+      "name": "发光星",
+      "name_en": "Glowing Star",
+      "name_ja": "輝く星",
+      "unicode": "U+1F31F",
+      "category": "shapes"
+    },
+    {
+      "id": "664",
+      "symbol": "✦",
+      "name": "黑四角星",
+      "name_en": "Black Four Pointed Star",
+      "name_ja": "黒四角星",
+      "unicode": "U+2726",
+      "category": "shapes"
+    },
+    {
+      "id": "665",
+      "symbol": "✧",
+      "name": "白四角星",
+      "name_en": "White Four Pointed Star",
+      "name_ja": "白四角星",
+      "unicode": "U+2727",
+      "category": "shapes"
+    }
+  ],
+  "count": 24
+}

@@ -1,0 +1,131 @@
+{
+  "category": {
+    "id": "miscellaneous",
+    "name": "其他符号",
+    "name_en": "Miscellaneous",
+    "name_ja": "その他の記号",
+    "description": "其他常用符号",
+    "description_en": "Other commonly used symbols",
+    "description_ja": "その他の一般的な記号"
+  },
+  "symbols": [
+    {
+      "id": "82",
+      "symbol": "⚠️",
+      "name": "警告",
+      "name_en": "Warning",
+      "name_ja": "警告",
+      "unicode": "U+26A0",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "83",
+      "symbol": "✅",
+      "name": "勾选",
+      "name_en": "Check Mark",
+      "name_ja": "チェックマーク",
+      "unicode": "U+2705",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "84",
+      "symbol": "❌",
+      "name": "叉号",
+      "name_en": "Cross Mark",
+      "name_ja": "バツ印",
+      "unicode": "U+274C",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "85",
+      "symbol": "🔴",
+      "name": "红色圆圈",
+      "name_en": "Red Circle",
+      "name_ja": "赤い円",
+      "unicode": "U+1F534",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "86",
+      "symbol": "🟢",
+      "name": "绿色圆圈",
+      "name_en": "Green Circle",
+      "name_ja": "緑の円",
+      "unicode": "U+1F7E2",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "87",
+      "symbol": "🔵",
+      "name": "蓝色圆圈",
+      "name_en": "Blue Circle",
+      "name_ja": "青い円",
+      "unicode": "U+1F535",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "88",
+      "symbol": "🟡",
+      "name": "黄色圆圈",
+      "name_en": "Yellow Circle",
+      "name_ja": "黄色の円",
+      "unicode": "U+1F7E1",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "89",
+      "symbol": "🟣",
+      "name": "紫色圆圈",
+      "name_en": "Purple Circle",
+      "name_ja": "紫の円",
+      "unicode": "U+1F7E3",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "90",
+      "symbol": "⭕",
+      "name": "空心红圆圈",
+      "name_en": "Heavy Large Circle",
+      "name_ja": "太い大きな円",
+      "unicode": "U+2B55",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "319",
+      "symbol": "♈",
+      "name": "白羊座",
+      "name_en": "Aries",
+      "name_ja": "牡羊座",
+      "unicode": "U+2648",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "320",
+      "symbol": "♉",
+      "name": "金牛座",
+      "name_en": "Taurus",
+      "name_ja": "牡牛座",
+      "unicode": "U+2649",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "321",
+      "symbol": "♊",
+      "name": "双子座",
+      "name_en": "Gemini",
+      "name_ja": "双子座",
+      "unicode": "U+264A",
+      "category": "miscellaneous"
+    },
+    {
+      "id": "322",
+      "symbol": "♋",
+      "name": "巨蟹座",
+      "name_en": "Cancer",
+      "name_ja": "蟹座",
+      "unicode": "U+264B",
+      "category": "miscellaneous"
+    }
+  ],
+  "count": 13
+}

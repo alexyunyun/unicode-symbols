@@ -1,0 +1,77 @@
+{
+  "category": {
+    "id": "legal",
+    "name": "法律商业符号",
+    "name_en": "Legal & Business",
+    "name_ja": "法律・ビジネス記号",
+    "description": "法律和商业相关符号",
+    "description_en": "Legal and business related symbols",
+    "description_ja": "法律とビジネス関連記号"
+  },
+  "symbols": [
+    {
+      "id": "504",
+      "symbol": "℗",
+      "name": "版权符号P",
+      "name_en": "Sound Recording Copyright",
+      "name_ja": "音声録音著作権",
+      "unicode": "U+2117",
+      "category": "legal"
+    },
+    {
+      "id": "505",
+      "symbol": "℠",
+      "name": "服务标记",
+      "name_en": "Service Mark",
+      "name_ja": "サービスマーク",
+      "unicode": "U+2120",
+      "category": "legal"
+    },
+    {
+      "id": "506",
+      "symbol": "№",
+      "name": "编号",
+      "name_en": "Numero Sign",
+      "name_ja": "ナンバーサイン",
+      "unicode": "U+2116",
+      "category": "legal"
+    },
+    {
+      "id": "507",
+      "symbol": "℁",
+      "name": "地址标记",
+      "name_en": "Addressed To The Subject",
+      "name_ja": "宛名",
+      "unicode": "U+2101",
+      "category": "legal"
+    },
+    {
+      "id": "508",
+      "symbol": "℅",
+      "name": "转交",
+      "name_en": "Care Of",
+      "name_ja": "預り",
+      "unicode": "U+2105",
+      "category": "legal"
+    },
+    {
+      "id": "509",
+      "name": "每个",
+      "symbol": "℆",
+      "name_en": "Cada Una",
+      "name_ja": "各々",
+      "unicode": "U+2106",
+      "category": "legal"
+    },
+    {
+      "id": "510",
+      "symbol": "⅍",
+      "name": "打",
+      "name_en": "Per Ten",
+      "name_ja": "打",
+      "unicode": "U+214D",
+      "category": "legal"
+    }
+  ],
+  "count": 7
+}
