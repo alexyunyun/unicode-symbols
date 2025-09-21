@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import './globals.css';
+import { ToastProvider } from '@/contexts/ToastContext';
+import { ToastContainer } from '@/components/Toast';
 
 export const metadata: Metadata = {
   title: "Unicode Symbols Collection | Unicode記号コレクション | Unicode符号大全",
@@ -14,7 +16,10 @@ export default function RootLayout({
   return (
     <html lang="zh" suppressHydrationWarning>
       <body className="antialiased">
-        {children}
+        <ToastProvider>
+          {children}
+          <ToastContainer />
+        </ToastProvider>
       </body>
     </html>
   );

@@ -1,12 +1,12 @@
 'use client';
 
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Copy, Check, X } from 'lucide-react';
+import { Copy, X } from 'lucide-react';
 import { Symbol } from '@/data/symbols';
 import { cn } from '@/lib/utils';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useToast } from '@/contexts/ToastContext';
 
 interface BatchCopyBarProps {
   selectedSymbols: Symbol[];
@@ -16,16 +16,16 @@ interface BatchCopyBarProps {
 
 export default function BatchCopyBar({ selectedSymbols, onClear, className }: BatchCopyBarProps) {
   const { t } = useLanguage();
-  const [copied, setCopied] = useState(false);
+  const { showSuccess, showError } = useToast();
 
   const handleBatchCopy = async () => {
     try {
       const symbolsText = selectedSymbols.map(s => s.symbol).join('');
       await navigator.clipboard.writeText(symbolsText);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      showSuccess(`${t('copy.batch')} ${t('copy.success') || '已复制到剪贴板'}`);
     } catch (err) {
       console.error(t('copy.failed') || '批量复制失败:', err);
+      showError(t('copy.failed') || '批量复制失败');
     }
   };
 
@@ -52,20 +52,11 @@ export default function BatchCopyBar({ selectedSymbols, onClear, className }: Ba
           size="sm"
           className={cn(
             "transition-all duration-200",
-            copied ? "bg-green-500 text-white" : "bg-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/30"
+            "bg-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/30"
           )}
         >
-          {copied ? (
-            <>
-              <Check className="w-3 h-3 mr-1" />
-              {t('copy.success')}
-            </>
-          ) : (
-            <>
-              <Copy className="w-3 h-3 mr-1" />
-              {t('copy.batch')}
-            </>
-          )}
+          <Copy className="w-3 h-3 mr-1" />
+          {t('copy.batch')}
         </Button>
         
         <Button

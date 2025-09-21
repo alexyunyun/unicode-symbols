@@ -15,6 +15,7 @@ import UserGuide from '@/components/UserGuide';
 import { LanguageProvider, useLanguage } from '@/contexts/LanguageContext';
 import { categories, symbols } from '@/data/symbols';
 import { useFavoritesStore } from '@/store/favoritesStore';
+import { useHydrationSafe } from '@/hooks/useHydrationSafe';
 import { BookOpen, Grid3X3, HelpCircle, Star } from 'lucide-react';
 import { useMemo, useState } from 'react';
 
@@ -25,6 +26,9 @@ function HomePage() {
   const [selectedSymbols, setSelectedSymbols] = useState<typeof symbols>([]);
 
   const { favorites } = useFavoritesStore();
+  
+  // 初始化 hydration 安全的状态
+  useHydrationSafe();
 
   // 避免未使用变量警告
   void tArray;

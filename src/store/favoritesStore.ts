@@ -5,9 +5,11 @@ import { debounce } from 'lodash';
 interface FavoritesState {
   favorites: Symbol[];
   favoritesMap: Record<string, boolean>; // 用于快速查找
+  mounted: boolean; // 用于 hydration 安全
   addToFavorites: (symbol: Symbol) => boolean;
   removeFromFavorites: (symbolId: string) => boolean;
   isFavorite: (symbolId: string) => boolean;
+  initializeFromStorage: () => void;
 }
 
 // 创建一个防抖的localStorage保存函数
@@ -19,39 +21,30 @@ const debouncedSaveToLocalStorage = debounce((favorites: Symbol[]) => {
 
 // 创建收藏状态管理store
 export const useFavoritesStore = create<FavoritesState>((set, get) => ({
-  favorites: (() => {
-    // 初始化时从localStorage加载收藏
-    if (typeof window !== 'undefined') {
-      const savedFavorites = localStorage.getItem('unicode-favorites');
-      if (savedFavorites) {
-        try {
-          return JSON.parse(savedFavorites);
-        } catch (error) {
-          console.error('Failed to load favorites:', error);
-        }
-      }
-    }
-    return [];
-  })(),
+  favorites: [],
+  favoritesMap: {},
+  mounted: false,
   
-  // 创建一个Map用于O(1)时间复杂度的查找
-  favoritesMap: (() => {
-    const map: Record<string, boolean> = {};
+  initializeFromStorage: () => {
     if (typeof window !== 'undefined') {
       const savedFavorites = localStorage.getItem('unicode-favorites');
       if (savedFavorites) {
         try {
           const favorites = JSON.parse(savedFavorites) as Symbol[];
+          const favoritesMap: Record<string, boolean> = {};
           favorites.forEach(fav => {
-            map[fav.id] = true;
+            favoritesMap[fav.id] = true;
           });
+          set({ favorites, favoritesMap, mounted: true });
         } catch (error) {
-          console.error('Failed to build favorites map:', error);
+          console.error('Failed to load favorites:', error);
+          set({ mounted: true });
         }
+      } else {
+        set({ mounted: true });
       }
     }
-    return map;
-  })(),
+  },
   
   addToFavorites: (symbol: Symbol) => {
     const { favorites, favoritesMap } = get();
@@ -86,7 +79,8 @@ export const useFavoritesStore = create<FavoritesState>((set, get) => ({
   },
   
   isFavorite: (symbolId: string) => {
-    const { favoritesMap } = get();
+    const { favoritesMap, mounted } = get();
+    if (!mounted) return false; // hydration 安全：未 mounted 时返回 false
     return !!favoritesMap[symbolId]; // 使用Map进行O(1)时间复杂度的查找
   }
 }));

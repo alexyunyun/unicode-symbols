@@ -4,9 +4,11 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useToast } from '@/contexts/ToastContext';
 import { Symbol } from '@/data/symbols';
 import { cn } from '@/lib/utils';
 import { useFavoritesStore } from '@/store/favoritesStore';
+import { useHydrationSafe } from '@/hooks/useHydrationSafe';
 import { Star } from 'lucide-react';
 import { memo, useCallback, useState } from 'react';
 import CopyDropdown from './CopyDropdown';
@@ -24,21 +26,25 @@ function SymbolCard({
   isSelected = false,
   onSelect,
 }: SymbolCardProps) {
-  const { t, language } = useLanguage();
-  const [copied, setCopied] = useState(false);
+  const { t, language, mounted: languageMounted } = useLanguage();
+  const { showSuccess, showError } = useToast();
   const { addToFavorites, removeFromFavorites, isFavorite } =
     useFavoritesStore();
   const [favoriteAction, setFavoriteAction] = useState(false);
+  const { mounted: favoritesMounted } = useHydrationSafe();
+  
+  // 确保 hydration 安全
+  const isHydrated = languageMounted && favoritesMounted;
 
   const handleQuickCopy = useCallback(async () => {
     try {
       await navigator.clipboard.writeText(symbol.symbol);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      showSuccess(t('copy.success') || '已复制到剪贴板');
     } catch (err) {
       console.error(t('copy.failed') || '复制失败:', err);
+      showError(t('copy.failed') || '复制失败');
     }
-  }, [symbol.symbol, t]);
+  }, [symbol.symbol, t, showSuccess, showError]);
 
   const handleFavoriteToggle = useCallback(
     (e: React.MouseEvent) => {
@@ -87,20 +93,20 @@ function SymbolCard({
         size="sm"
         className={cn(
           'absolute top-1 right-1 h-6 w-6 p-0 opacity-0 group-hover:opacity-100 transition-all duration-200 z-10',
-          isFavorite(symbol.id)
+          isHydrated && isFavorite(symbol.id)
             ? 'opacity-100 text-yellow-500 hover:text-yellow-600'
             : 'hover:text-yellow-500',
           favoriteAction && 'scale-125',
         )}
         onClick={handleFavoriteToggle}
         title={
-          isFavorite(symbol.id) ? t('favorites.remove') : t('favorites.add')
+          isHydrated && isFavorite(symbol.id) ? t('favorites.remove') : t('favorites.add')
         }
       >
         <Star
           className={cn(
             'h-4 w-4 transition-all duration-200',
-            isFavorite(symbol.id) ? 'fill-current' : '',
+            isHydrated && isFavorite(symbol.id) ? 'fill-current' : '',
           )}
         />
       </Button>
@@ -108,25 +114,19 @@ function SymbolCard({
       <CardContent className="p-3 text-center">
         <div
           className={cn(
-            'symbol-display text-2xl mb-2 font-mono select-none cursor-pointer relative transition-all duration-200',
-            copied ? 'scale-110' : 'hover:scale-105',
+            'symbol-display text-2xl mb-2 font-mono select-none cursor-pointer relative transition-all duration-200 hover:scale-105',
           )}
           style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}
           title={t('copy.clickToCopy')}
         >
           {symbol.symbol}
-          {copied && (
-            <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs px-2 py-1 rounded shadow-lg animate-pulse">
-              {t('copy.success')}
-            </div>
-          )}
         </div>
 
         <div className="space-y-2">
           <h3 className="font-medium text-xs text-foreground/90">
-            {language === 'en' && symbol.name_en
+            {isHydrated && language === 'en' && symbol.name_en
               ? symbol.name_en
-              : language === 'ja' && symbol.name_ja
+              : isHydrated && language === 'ja' && symbol.name_ja
               ? symbol.name_ja
               : symbol.name}
           </h3>

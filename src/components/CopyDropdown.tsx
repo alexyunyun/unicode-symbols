@@ -10,10 +10,11 @@ import {
   DropdownMenuSeparator,
   DropdownMenuLabel,
 } from '@/components/ui/dropdown-menu';
-import { Copy, Check, ChevronDown } from 'lucide-react';
+import { Copy, ChevronDown } from 'lucide-react';
 import { Symbol } from '@/data/symbols';
 import { cn } from '@/lib/utils';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useToast } from '@/contexts/ToastContext';
 
 interface CopyDropdownProps {
   symbol: Symbol;
@@ -28,7 +29,7 @@ interface CopyFormat {
 
 export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
   const { t, language } = useLanguage();
-  const [copied, setCopied] = useState<string | null>(null);
+  const { showSuccess, showError } = useToast();
 
   // 生成各种格式的复制内容
   const getFormats = (sym: Symbol, lang: string): CopyFormat[] => [
@@ -208,10 +209,10 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
   const handleCopy = async (format: CopyFormat) => {
     try {
       await navigator.clipboard.writeText(format.value);
-      setCopied(format.label);
-      setTimeout(() => setCopied(null), 2000);
+      showSuccess(`${format.label} ${t('copy.success') || '已复制到剪贴板'}`);
     } catch (err) {
       console.error(t('copy.failed') || '复制失败:', err);
+      showError(t('copy.failed') || '复制失败');
     }
   };
 
@@ -222,28 +223,17 @@ export default function CopyDropdown({ symbol, className }: CopyDropdownProps) {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          variant={copied ? 'default' : 'outline'}
+          variant="outline"
           size="sm"
           className={cn(
             'w-full transition-all duration-200 cursor-pointer text-xs h-8 px-2 border-2 whitespace-nowrap overflow-hidden',
-            copied
-              ? 'bg-green-500 border-green-500 text-white hover:bg-green-600 dark:bg-green-600 dark:border-green-600 dark:text-white dark:hover:bg-green-700'
-              : 'hover:bg-accent hover:text-accent-foreground hover:border-primary/50 dark:hover:bg-accent dark:hover:text-accent-foreground',
+            'hover:bg-accent hover:text-accent-foreground hover:border-primary/50 dark:hover:bg-accent dark:hover:text-accent-foreground',
             className,
           )}
         >
-          {copied ? (
-            <>
-              <Check className="w-3 h-3 mr-1 flex-shrink-0" />
-              <span className="truncate">{t('copy.success')}</span>
-            </>
-          ) : (
-            <>
-              <Copy className="w-3 h-3 mr-1 flex-shrink-0" />
-              <span className="truncate">{t('copy.symbol')}</span>
-              <ChevronDown className="w-3 h-3 ml-1 flex-shrink-0" />
-            </>
-          )}
+          <Copy className="w-3 h-3 mr-1 flex-shrink-0" />
+          <span className="truncate">{t('copy.symbol')}</span>
+          <ChevronDown className="w-3 h-3 ml-1 flex-shrink-0" />
         </Button>
       </DropdownMenuTrigger>
 

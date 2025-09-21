@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useToast } from '@/contexts/ToastContext';
 import { Symbol } from '@/data/symbols';
 import { cn } from '@/lib/utils';
 import { useFavoritesStore } from '@/store/favoritesStore';
@@ -18,6 +19,7 @@ interface FavoriteSymbolsProps {
 
 function FavoriteSymbols({ className }: FavoriteSymbolsProps) {
   const { t, language } = useLanguage();
+  const { showSuccess, showError } = useToast();
   const { favorites, removeFromFavorites } = useFavoritesStore();
 
   // 避免未使用变量警告（保留接口完整性）
@@ -35,17 +37,15 @@ function FavoriteSymbols({ className }: FavoriteSymbolsProps) {
   // };
 
   // 快速复制符号
-  const [copiedSymbol, setCopiedSymbol] = useState<string | null>(null);
-
   const handleQuickCopy = useCallback(async (symbol: Symbol) => {
     try {
       await navigator.clipboard.writeText(symbol.symbol);
-      setCopiedSymbol(symbol.id);
-      setTimeout(() => setCopiedSymbol(null), 1500);
+      showSuccess(t('copy.success') || '已复制到剪贴板');
     } catch (err) {
       console.error('复制失败:', err);
+      showError(t('copy.failed') || '复制失败');
     }
-  }, []);
+  }, [showSuccess, showError, t]);
 
   return (
     <Card className={cn('w-full', className)}>
@@ -92,20 +92,12 @@ function FavoriteSymbols({ className }: FavoriteSymbolsProps) {
                   <CardContent className="p-3 text-center">
                     <div
                       className={cn(
-                        'text-xl mb-1 font-mono select-none cursor-pointer relative transition-all duration-200',
-                        copiedSymbol === symbol.id
-                          ? 'scale-110'
-                          : 'hover:scale-105',
+                        'text-xl mb-1 font-mono select-none cursor-pointer relative transition-all duration-200 hover:scale-105',
                       )}
                       onClick={() => handleQuickCopy(symbol)}
                       title={t('copy.symbol')}
                     >
                       {symbol.symbol}
-                      {copiedSymbol === symbol.id && (
-                        <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs px-2 py-1 rounded shadow-lg animate-pulse">
-                          {t('copy.success')}
-                        </div>
-                      )}
                     </div>
                     <div className="text-xs text-muted-foreground truncate">
                       {language === 'en' && symbol.name_en

@@ -670,6 +670,7 @@ interface LanguageContextType {
   setLanguage: (lang: Language) => void;
   t: (key: string, params?: Record<string, string | number>) => string;
   tArray: (key: string) => string[];
+  mounted: boolean;
 }
 
 // 创建上下文
@@ -710,9 +711,11 @@ function translateArray(language: Language, key: string): string[] {
 // 语言Provider组件
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>('zh');
+  const [mounted, setMounted] = useState(false);
 
   // 从localStorage加载语言设置
   useEffect(() => {
+    setMounted(true);
     const savedLanguage = localStorage.getItem('language') as Language;
     if (savedLanguage && SUPPORTED_LANGUAGES.includes(savedLanguage)) {
       setLanguage(savedLanguage);
@@ -741,7 +744,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     language,
     setLanguage: handleSetLanguage,
     t,
-    tArray
+    tArray,
+    mounted
   };
 
   return (
